@@ -1,0 +1,180 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANTENNA_OFF	rfid_lib.h	43;"	d
+ANTENNA_ON	rfid_lib.h	42;"	d
+AnalogTestReg	rfid_lib.h	152;"	d
+AutoTestReg	rfid_lib.h	150;"	d
+BitFramingReg	rfid_lib.h	106;"	d
+CC	Makefile	/^CC = arm-linux-gcc$/;"	m
+CLR_BIT_FAIL	rfid_lib.h	59;"	d
+CLR_BIT_SUCCESS	rfid_lib.h	58;"	d
+CMD_FAIL	rfid_lib.h	64;"	d
+CMD_SUCCESS	rfid_lib.h	63;"	d
+COMMAND_ERR	rfid_lib.h	62;"	d
+CRCResultRegL	rfid_lib.h	129;"	d
+CRCResultRegM	rfid_lib.h	128;"	d
+CWGsCfgReg	rfid_lib.h	135;"	d
+CollReg	rfid_lib.h	107;"	d
+ComIEnReg	rfid_lib.h	95;"	d
+ComIrqReg	rfid_lib.h	97;"	d
+CommandReg	rfid_lib.h	94;"	d
+ControlReg	rfid_lib.h	105;"	d
+DEBUG_ECHO	rfid_lib.c	11;"	d	file:
+DemodReg	rfid_lib.h	119;"	d
+DivIrqReg	rfid_lib.h	98;"	d
+DivlEnReg	rfid_lib.h	96;"	d
+EXEC_NAME	Makefile	/^EXEC_NAME = demo$/;"	m
+EXEC_PATH	Makefile	/^EXEC_PATH = .$/;"	m
+ErrorReg	rfid_lib.h	99;"	d
+FIFODataReg	rfid_lib.h	102;"	d
+FIFOLevelReg	rfid_lib.h	103;"	d
+FLAG	Makefile	/^FLAG = -Wall$/;"	m
+GsNReg	rfid_lib.h	134;"	d
+MAXRLEN	rfid_lib.h	160;"	d
+MifareReg	rfid_lib.h	122;"	d
+ModGsCfgReg	rfid_lib.h	136;"	d
+ModWidthReg	rfid_lib.h	131;"	d
+ModeReg	rfid_lib.h	111;"	d
+NOK	rfid_lib.h	36;"	d
+NOP	rfid_lib.h	89;"	d
+OBJ	Makefile	/^OBJ = $(SRC:%.c=%.o)$/;"	m
+OK	rfid_lib.h	35;"	d
+OPTION	Makefile	/^OPTION = -lpthread -ldl $/;"	m
+PCD_AUTHENT	rfid_lib.h	68;"	d
+PCD_CALCCRC	rfid_lib.h	73;"	d
+PCD_IDLE	rfid_lib.h	67;"	d
+PCD_RECEIVE	rfid_lib.h	69;"	d
+PCD_RESETPHASE	rfid_lib.h	72;"	d
+PCD_TRANSCEIVE	rfid_lib.h	71;"	d
+PCD_TRANSMIT	rfid_lib.h	70;"	d
+PICC_ANTICOLL1	rfid_lib.h	78;"	d
+PICC_ANTICOLL2	rfid_lib.h	79;"	d
+PICC_AUTHENT1A	rfid_lib.h	80;"	d
+PICC_AUTHENT1B	rfid_lib.h	81;"	d
+PICC_DECREMENT	rfid_lib.h	84;"	d
+PICC_HALT	rfid_lib.h	88;"	d
+PICC_INCREMENT	rfid_lib.h	85;"	d
+PICC_READ	rfid_lib.h	82;"	d
+PICC_REQALL	rfid_lib.h	77;"	d
+PICC_REQIDL	rfid_lib.h	76;"	d
+PICC_RESTORE	rfid_lib.h	86;"	d
+PICC_TRANSFER	rfid_lib.h	87;"	d
+PICC_WRITE	rfid_lib.h	83;"	d
+RD_FAIL	rfid_lib.h	55;"	d
+RD_SUCCESS	rfid_lib.h	54;"	d
+RFCfgReg	rfid_lib.h	133;"	d
+RFU00	rfid_lib.h	93;"	d
+RFU0F	rfid_lib.h	108;"	d
+RFU10	rfid_lib.h	110;"	d
+RFU1A	rfid_lib.h	120;"	d
+RFU1B	rfid_lib.h	121;"	d
+RFU1D	rfid_lib.h	123;"	d
+RFU1E	rfid_lib.h	124;"	d
+RFU20	rfid_lib.h	127;"	d
+RFU23	rfid_lib.h	130;"	d
+RFU25	rfid_lib.h	132;"	d
+RFU30	rfid_lib.h	144;"	d
+RFU3C	rfid_lib.h	156;"	d
+RFU3D	rfid_lib.h	157;"	d
+RFU3E	rfid_lib.h	158;"	d
+RFU3F	rfid_lib.h	159;"	d
+RxModeReg	rfid_lib.h	113;"	d
+RxSelReg	rfid_lib.h	117;"	d
+RxThresholdReg	rfid_lib.h	118;"	d
+S5P_GPIO_DRVLEV_0	s5p6818_gpio.h	11;"	d
+S5P_GPIO_DRVLEV_1	s5p6818_gpio.h	12;"	d
+S5P_GPIO_DRVLEV_2	s5p6818_gpio.h	13;"	d
+S5P_GPIO_PULL_DOWN	s5p6818_gpio.h	9;"	d
+S5P_GPIO_PULL_UP	s5p6818_gpio.h	10;"	d
+S5P_GPIO_SET_INPUT	s5p6818_gpio.h	5;"	d
+S5P_GPIO_SET_OUTPUT	s5p6818_gpio.h	6;"	d
+S5P_GPIO_SET_OUT_0	s5p6818_gpio.h	7;"	d
+S5P_GPIO_SET_OUT_1	s5p6818_gpio.h	8;"	d
+SET_BIT_FAIL	rfid_lib.h	57;"	d
+SET_BIT_SUCCESS	rfid_lib.h	56;"	d
+SRC	Makefile	/^SRC := #$/;"	m
+SerialSpeedReg	rfid_lib.h	125;"	d
+Status1Reg	rfid_lib.h	100;"	d
+Status2Reg	rfid_lib.h	101;"	d
+TCounterValueRegH	rfid_lib.h	141;"	d
+TCounterValueRegL	rfid_lib.h	142;"	d
+TModeReg	rfid_lib.h	137;"	d
+TPrescalerReg	rfid_lib.h	138;"	d
+TReloadRegH	rfid_lib.h	139;"	d
+TReloadRegL	rfid_lib.h	140;"	d
+TestADCReg	rfid_lib.h	155;"	d
+TestBusReg	rfid_lib.h	149;"	d
+TestDAC1Reg	rfid_lib.h	153;"	d
+TestDAC2Reg	rfid_lib.h	154;"	d
+TestPinEnReg	rfid_lib.h	147;"	d
+TestPinValueReg	rfid_lib.h	148;"	d
+TestSel1Reg	rfid_lib.h	145;"	d
+TestSel2Reg	rfid_lib.h	146;"	d
+TxASKReg	rfid_lib.h	115;"	d
+TxControlReg	rfid_lib.h	114;"	d
+TxModeReg	rfid_lib.h	112;"	d
+TxSelReg	rfid_lib.h	116;"	d
+UART_DEV	main.c	21;"	d	file:
+UART_GET_FAIL	rfid_lib.h	49;"	d
+UART_GET_SUCCESS	rfid_lib.h	48;"	d
+UART_PUT_FAIL	rfid_lib.h	47;"	d
+UART_PUT_SUCCESS	rfid_lib.h	46;"	d
+VersionReg	rfid_lib.h	151;"	d
+WAIT_USEC	rfid_lib.h	39;"	d
+WR_FAIL	rfid_lib.h	53;"	d
+WR_SUCCESS	rfid_lib.h	52;"	d
+WaterLevelReg	rfid_lib.h	104;"	d
+_UART_INIT_H_	uart_init.h	2;"	d
+__RFID_LIB_H	rfid_lib.h	2;"	d
+__S5PV6818_GPIO_H__	s5p6818_gpio.h	2;"	d
+antenna_set	rfid_lib.c	/^	void antenna_set(unsigned char mode)$/;"	f	signature:(unsigned char mode)
+delay_10ms	rfid_lib.c	/^void delay_10ms(unsigned int _10ms)$/;"	f	signature:(unsigned int _10ms)
+do_rst	rfid_lib.c	/^	void do_rst(int value)$/;"	f	signature:(int value)
+get_rfid_card_id	rfid_lib.c	/^	int get_rfid_card_id(unsigned char *id,char *type)$/;"	f	signature:(unsigned char *id,char *type)
+get_rfid_card_id	rfid_lib.h	/^extern int get_rfid_card_id(unsigned char *id,char *type);$/;"	p	signature:(unsigned char *id,char *type)
+main	main.c	/^int main(void)$/;"	f	signature:(void)
+recv_udp_func	main.c	/^void *recv_udp_func(void *arg)$/;"	f	signature:(void *arg)
+recv_udp_func	main.c	/^void *recv_udp_func(void *arg);$/;"	p	file:	signature:(void *arg)
+reg_clr_bit	rfid_lib.c	/^	unsigned char reg_clr_bit(unsigned char reg_addr, unsigned char mask)$/;"	f	signature:(unsigned char reg_addr, unsigned char mask)
+reg_get	rfid_lib.c	/^	unsigned char reg_get(unsigned char reg_addr)$/;"	f	signature:(unsigned char reg_addr)
+reg_get	rfid_lib.h	/^extern unsigned char reg_get(unsigned char reg_addr);$/;"	p	signature:(unsigned char reg_addr)
+reg_set	rfid_lib.c	/^	unsigned char reg_set(unsigned char reg_addr, unsigned char value)$/;"	f	signature:(unsigned char reg_addr, unsigned char value)
+reg_set	rfid_lib.h	/^extern unsigned char reg_set(unsigned char reg_addr, unsigned char value);$/;"	p	signature:(unsigned char reg_addr, unsigned char value)
+reg_set_bit	rfid_lib.c	/^	unsigned char reg_set_bit(unsigned char reg_addr, unsigned char mask)$/;"	f	signature:(unsigned char reg_addr, unsigned char mask)
+rfid_anticoll	rfid_lib.c	/^	unsigned char rfid_anticoll(unsigned char *card_num)$/;"	f	signature:(unsigned char *card_num)
+rfid_anticoll	rfid_lib.h	/^extern unsigned char rfid_anticoll(unsigned char *card_num);$/;"	p	signature:(unsigned char *card_num)
+rfid_attrib	rfid_lib.c	/^	unsigned char rfid_attrib(void)$/;"	f	signature:(void)
+rfid_attrib	rfid_lib.h	/^extern unsigned char rfid_attrib(void);$/;"	p	signature:(void)
+rfid_carda_init	rfid_lib.c	/^	void rfid_carda_init(void)$/;"	f	signature:(void)
+rfid_carda_init	rfid_lib.h	/^extern void rfid_carda_init(void);$/;"	p	signature:(void)
+rfid_carda_request	rfid_lib.c	/^	unsigned char rfid_carda_request(unsigned char req_code, unsigned char *card_type)$/;"	f	signature:(unsigned char req_code, unsigned char *card_type)
+rfid_carda_request	rfid_lib.h	/^extern unsigned char rfid_carda_request(unsigned char req_code, unsigned char *card_type);$/;"	p	signature:(unsigned char req_code, unsigned char *card_type)
+rfid_cardb_init	rfid_lib.c	/^	void rfid_cardb_init(void)$/;"	f	signature:(void)
+rfid_cardb_init	rfid_lib.h	/^extern void rfid_cardb_init(void);$/;"	p	signature:(void)
+rfid_cmd	rfid_lib.c	/^	unsigned char rfid_cmd(unsigned char Command, $/;"	f	signature:(unsigned char Command, unsigned char *pInData, unsigned char InLenByte, unsigned char *pOutData, unsigned int *pOutLenBit)
+rfid_get_uid	rfid_lib.c	/^	unsigned char rfid_get_uid(unsigned char *uid_buf)$/;"	f	signature:(unsigned char *uid_buf)
+rfid_get_uid	rfid_lib.h	/^extern unsigned char rfid_get_uid(unsigned char *uid_buf);$/;"	p	signature:(unsigned char *uid_buf)
+rfid_request	rfid_lib.c	/^	unsigned char rfid_request(void)$/;"	f	signature:(void)
+rfid_request	rfid_lib.h	/^extern unsigned char rfid_request(void);$/;"	p	signature:(void)
+send_flag	main.c	/^int send_flag = 0;$/;"	v
+sig_dispose	rfid_lib.c	/^	void sig_dispose(int sig)$/;"	f	signature:(int sig)
+sockfd	main.c	/^int sockfd = 0;$/;"	v
+timer_set	rfid_lib.c	/^	void timer_set(unsigned short value)$/;"	f	signature:(unsigned short value)
+uart_close	uart_init.c	/^void uart_close(int fd)$/;"	f	signature:(int fd)
+uart_close	uart_init.h	/^extern void uart_close(int fd);  $/;"	p	signature:(int fd)
+uart_fd	rfid_lib.c	/^int uart_fd;$/;"	v
+uart_getchar	rfid_lib.c	/^unsigned char uart_getchar(unsigned char *ch, unsigned int wait_usec)$/;"	f	signature:(unsigned char *ch, unsigned int wait_usec)
+uart_init	uart_init.c	/^int uart_init(int fd)$/;"	f	signature:(int fd)
+uart_init	uart_init.h	/^extern int uart_init(int fd);$/;"	p	signature:(int fd)
+uart_open	uart_init.c	/^int uart_open(int *fd, char* port)$/;"	f	signature:(int *fd, char* port)
+uart_open	uart_init.h	/^extern int uart_open(int *fd,char *port);$/;"	p	signature:(int *fd,char *port)
+uart_putchar	rfid_lib.c	/^unsigned char uart_putchar(unsigned char ch)$/;"	f	signature:(unsigned char ch)
+uart_rest	rfid_lib.c	/^	void uart_rest(char *dev)$/;"	f	signature:(char *dev)
+uart_rfid_init	rfid_lib.c	/^	void uart_rfid_init(char *dev)$/;"	f	signature:(char *dev)
+uart_rfid_init	rfid_lib.h	/^extern void uart_rfid_init(char *dev);$/;"	p	signature:(char *dev)
+uart_set	uart_init.c	/^int uart_set(int fd,int speed,int flow_ctrl,int databits,int stopbits,int parity)$/;"	f	signature:(int fd,int speed,int flow_ctrl,int databits,int stopbits,int parity)
+uart_set	uart_init.h	/^extern int uart_set(int fd,int speed,int flow_ctrl,int databits,int stopbits,int parity);$/;"	p	signature:(int fd,int speed,int flow_ctrl,int databits,int stopbits,int parity)

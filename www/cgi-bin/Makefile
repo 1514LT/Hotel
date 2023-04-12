@@ -2,9 +2,10 @@ target1=./login/login.cgi
 target2=./singup/singup.cgi
 target3=./find/find.cgi
 target4=./write_off/write_off.cgi
+target5=./change_password/change_password.cgi
 FLAGS = -Wall
 CC = gcc
-all:$(target1) $(target2) $(target3) $(target4) 
+all:$(target1) $(target2) $(target3) $(target4) $(target5)
 $(target1):./login/login.o sqlite3.o
 	$(CC) $^ -o $@ $(FLAGS) -lpthread -ldl
 $(target2):./singup/singup.o sqlite3.o
@@ -12,6 +13,8 @@ $(target2):./singup/singup.o sqlite3.o
 $(target3):./find/find.o sqlite3.o
 	$(CC) $^ -o $@ $(FLAGS) -lpthread -ldl
 $(target4):./write_off/write_off.o sqlite3.o
+	$(CC) $^ -o $@ $(FLAGS) -lpthread -ldl
+$(target5):./change_password/change_password.o sqlite3.o
 	$(CC) $^ -o $@ $(FLAGS) -lpthread -ldl
 %.o:%.c
 	$(CC) -c $^ -o $@ $(FLAGS)
@@ -21,3 +24,4 @@ clean:
 	rm example ./singup/*.o -rfv
 	rm example ./find/*.o -rfv
 	rm example ./write_off/*.o -rfv
+	rm example ./change_password/*.o -rfv

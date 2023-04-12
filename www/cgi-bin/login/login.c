@@ -33,14 +33,17 @@ int main(int argc, char const *argv[])
     //printf("row=%d, col=%d\n", row, col);
     if (row >= 1)
     {
-        // result[4] 表明数据库中存放的密码
-        if (strcmp(result[4], pwd) != 0)
+        // result[5] 表明数据库中存放的密码
+        if (strcmp(result[5], pwd) != 0)
         {
             printf("0");
         }
         else
         {
-            printf("1");
+            if(strcmp(result[7],"root")==0)
+                printf("root");
+            else if(strcmp(result[7],"user")==0)
+                printf("user");
         }
     }
     else

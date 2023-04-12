@@ -29,21 +29,24 @@ function login() {
             //处理服务器的应答 xmlhttp.responseText
             var ret = xmlhttp.responseText;
             // alert("##" + ret + "##");
-            if (ret == "1") {
+            if (ret == "user") {
                 // alert("----跳转网页---");
                 window.location.href = "./total.html";
+            }
+            else if (ret == "root") {
+                window.location.href = "./admin_total.html";
             }
             else if (ret == "0") {
                 alert("----用户密码错误---");
             }
+            
         }
-        //else { alert("erro"); return; }
     }
     var url = "./cgi-bin/login/login.cgi?";
     url += usr;
     url += ":";
     url += pwd;
-    // alert("url" + url);
+    alert("url" + url);
     xmlhttp.open("GET", url, true);
     //4、发送请求
     xmlhttp.send();
