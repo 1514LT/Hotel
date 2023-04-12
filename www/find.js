@@ -44,11 +44,18 @@ function getXMLHttpRequest() {
     return xmlhttp;//返回请求对象
 }
 function find() {
-    var name = document.getElementById("username").value;
-    var card = 0;
-    //var card = document.getElementById("usercard").value;
-    var choise_name = document.getElementById("choise_name").value;
-    var choise_id = document.getElementById("choise_card").value;
+    var input = document.getElementById("input").value;
+    const radios = document.querySelectorAll('input[name="choice"]');
+    let selectedValue;
+
+    radios.forEach((radio) => {
+        if (radio.checked) {
+            selectedValue = radio.value;
+        }
+    });
+
+    
+    // card = document.getElementById("usercard").value;
     var xmlhttp = getXMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
@@ -57,7 +64,6 @@ function find() {
             alert(ret);
             if (ret != "0") {
                 alert("----查找成功---");
-                //window.location.href = "./total.html";
                 document.getElementById('div').innerHTML=ret;
             }
             else if (ret == "0") {
@@ -66,9 +72,9 @@ function find() {
         }
     }
     var url = "./cgi-bin/find/find.cgi?";
-    url += name;
+    url += input;
     url += ":";
-    url += card + ":" + choise_name + ":" + choise_id;
+    url += selectedValue;
     alert("url" + url);
     xmlhttp.open("GET", url, true);
     //4、发送请求

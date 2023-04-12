@@ -17,11 +17,10 @@ int main(int argc, char const *argv[])
     
     printf("content-type:textml\n\n");
     char *data = getenv("QUERY_STRING");
-    char usr[64]="";
+    char input[64]="";
     char text[128] = "";
     //获取收到的数据(url中？后面的数据)
-    sscanf(data, "%[^:]:%s", usr, text);
-    //printf("%s\n",usr);
+    sscanf(data, "%[^:]:%s", input, text);
 #if 1
     //获取数据库中的数据
     sqlite3 *db = NULL;
@@ -31,12 +30,11 @@ int main(int argc, char const *argv[])
         perror("sqlite3_open");
         return 0;
     }
-
-    //查询lucy的信息
     char sql[128] = "";
-    sprintf(sql, "select user,user.card,time from user,data where user.card=data.card and user.user=\'%s\';", usr);
-    //sprintf(sql, "select * from user where user=\'%s\';", usr);
-    // sqlite3_exec(db, sql, my_fun, NULL, NULL);
+    if(strcmp(text,"name")==0)
+        sprintf(sql, "select user,user.card,time from user,data where user.card=data.card and user.user=\'%s\';", input);
+    else if(strcmp(text,"id")==0)
+        sprintf(sql, "select user,user.card,time from user,data where user.card=\'%s\' and data.card=\'%s\';", input,input);
     char **result = NULL;
     int row = 0, col = 0;
     sqlite3_get_table(db, sql, &result, &row, &col, NULL);

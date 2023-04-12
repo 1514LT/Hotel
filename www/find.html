@@ -23,6 +23,8 @@
         .container {
             height: 100%;
             background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
+            float: left;
+            width: 50%;
         }
 
         .login-wrapper {
@@ -87,40 +89,47 @@
 
 <body>
     <div class="container">
-        <div id="div"></div>
+
         <div class="login-wrapper">
             <div class="header">查询</div>
             <div class="form-wrapper">
                 <h3>请选择查找方式：</h3>
                 <br>
-                <div id="add">
-                    <input type="radio" name="genre" @click="fff = !fff" id="choise_name" value="naem">姓名
-                    <input type="radio" name="genre" @click="fff= !fff" id="choise_card" value="card" >卡号
-
-
-
-                    <input type="text" id="username" placeholder="姓名" v-if="fff" class="input-item">
-                    
-                    <input type="text" id="usercard" placeholder="卡号" v-else="fff" class="input-item">
-                </div>
-                <script src="./vue.min.js"></script>
+                <label><input type="radio" name="choice" value="name"> 姓名</label>
+                <label><input type="radio" name="choice" value="id"> ID</label><br>
+                
+                <label>输入框：<input type="text" id="input"></label>
+                
                 <script>
-                    var vm = new Vue({
-                        el: '#add',
-                        data: {
-                            fff: false
-                        },
-                    })
+                    const input = document.getElementById('input');
+
+                    document.querySelectorAll('input[name="choice"]').forEach((radio) => {
+                        radio.addEventListener('change', (event) => {
+                            if (event.target.value === 'name') {
+                                input.placeholder = '请输入姓名';
+                            } else if (event.target.value === 'id') {
+                                input.placeholder = '请输入ID';
+                            }
+                        });
+                    });
                 </script>
+
 
                 <div class="btn" onclick="find();">查询</div>
                 <div class="btn" onclick="cancel();">取消</div>
                 <div class="btn" onclick="back();">返回</div>
+
                 <br>
 
             </div>
         </div>
 
+    </div>
+    <div class="container">
+        <div class="login-wrapper">
+            <div class="header">查询结果</div>
+            <div id="div"></div>
+        </div>
     </div>
 </body>
 
