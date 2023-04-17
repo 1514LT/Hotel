@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>修改用户权限</title>
+    <script type="text/javascript" src="./Modifying_user_rights.js"></script>
+    <style>
+        .container {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        S input[type=text],
+        input[type=password] {
+            width: 300px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            color: black;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .btn {
+            background-color: #45a049;
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>修改用户权限</h1>
+        <div>
+            <h3>请选择权限：</h3>
+            <br>
+            <label><input type="radio" name="choice" value="user"> 普通用户</label>
+            <label><input type="radio" name="choice" value="root"> 管理员</label><br>
+            <label>请输入用户名:</label>
+            <label><input type="text" id="input"></label><br>
+
+            <script>
+                const input = document.getElementById('input');
+
+                document.querySelectorAll('input[name="choice"]').forEach((radio) => {
+                    radio.addEventListener('change', (event) => {
+                        if (event.target.value === 'user') {
+                            input.placeholder = '普通用户转管理员';
+                        } else if (event.target.value === 'root') {
+                            input.placeholder = '管理员转普通用户';
+                        }
+                    });
+                });
+            </script>
+
+            <input type="submit" value="Submit" onclick="set_user_right()">
+
+        </div>
+    </div>
+</body>
+
+</html>

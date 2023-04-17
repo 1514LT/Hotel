@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="./text.js"></script>
+</head>
+<body>
+    <label><input type="radio" name="choice" value="name"> 姓名</label>
+    <label><input type="radio" name="choice" value="id"> ID</label><br>
+    
+    <label>输入框：<input type="text" id="input"></label>
+    
+    <script>
+        const input = document.getElementById('input');
+
+        document.querySelectorAll('input[name="choice"]').forEach((radio) => {
+            radio.addEventListener('change', (event) => {
+                if (event.target.value === 'name') {
+                    input.placeholder = '请输入姓名';
+                } else if (event.target.value === 'id') {
+                    input.placeholder = '请输入ID';
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./find_card.js"></script>
+    <title>查找</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+        }
+
+        .container {
+            height: 100%;
+            background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
+            float: left;
+            width: 50%;
+        }
+
+        .login-wrapper {
+            background-color: #fff;
+            width: 358px;
+            height: 588px;
+            border-radius: 15px;
+            padding: 0 50px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .header {
+            font-size: 38px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        .input-item {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            border: 0;
+            padding: 10px;
+            border-bottom: 1px solid rgb(128, 125, 125);
+            font-size: 15px;
+            outline: none;
+        }
+
+        .input-item:placeholder {
+            text-transform: uppercase;
+        }
+
+        .btn {
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            margin-top: 40px;
+            background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
+            color: #fff;
+        }
+
+        .msg {
+            text-align: center;
+            line-height: 88px;
+        }
+
+        a {
+            text-decoration-line: none;
+            color: #abc1ee;
+        }
+
+        .display {
+            display: none;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="login-wrapper">
+            <div class="header">刷卡记录查询</div>
+            <div class="form-wrapper">
+                <h3>请选择查找方式：</h3>
+                <br>
+                <label><input type="radio" name="choice" value="name"> 姓名</label>
+                <label><input type="radio" name="choice" value="id"> 卡号</label><br>
+                
+                <label><input type="text" id="input"></label><br>
+                <label><input type="password" id="pwd"></label>
+                
+                <script>
+                    const input = document.getElementById('input');
+                    const pwd=document.getElementById('pwd');
+                    
+                    document.querySelectorAll('input[name="choice"]').forEach((radio) => {
+                        radio.addEventListener('change', (event) => {
+                            if (event.target.value === 'name') {
+                                input.placeholder = '请输入姓名';
+                                pwd.placeholder = '请输入密码'
+                            } else if (event.target.value === 'id') {
+                                input.placeholder = '请输入卡号';
+                                pwd.placeholder = '请输入密码'
+                            }
+                        });
+                    });
+                </script>
+
+
+                <div class="btn" onclick="find_card();">查询</div>
+                <div class="btn" onclick="cancel();">取消</div>
+                <div class="btn" onclick="back();">返回</div>
+
+                <br>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="login-wrapper">
+            <div class="header">查询结果</div>
+            <div id="div"></div>
+        </div>
+    </div>
+</body>
+
+</html>
