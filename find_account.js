@@ -17,6 +17,28 @@ function getXMLHttpRequest() {
     }
     return xmlhttp;//返回请求对象
 }
+function get_card() {
+    var xmlhttp = getXMLHttpRequest();
+    var card;
+    //alert(xmlhttp);
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            //处理服务器的应答 xmlhttp.responseText
+            var ret = xmlhttp.responseText;
+            card = ret;
+            alert("##" + ret + "##");
+            document.getElementById("input").value = ret
+        }
+
+    }
+    var url = "./cgi-bin/get_card/get_card.cgi?";
+    //alert(url);
+    url += "get_card:";
+    alert(url);
+    xmlhttp.open("GET", url, true);
+    //4、发送请求
+    xmlhttp.send();
+}
 function find_account() {
     var input = document.getElementById("input").value;
     var pwd = document.getElementById("pwd").value;

@@ -46,7 +46,6 @@ function top_up() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             //处理服务器的应答 xmlhttp.responseText
             var ret = xmlhttp.responseText;
-            alert("##" + ret + "##");
             if (ret == "充值成功") {
                 alert("----充值" + money + "成功----");
             }

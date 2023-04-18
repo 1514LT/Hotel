@@ -97,14 +97,14 @@
                 <br>
                 <label><input type="radio" name="choice" value="name"> 姓名</label>
                 <label><input type="radio" name="choice" value="id"> 卡号</label><br>
-                
+
                 <label><input type="text" id="input"></label><br>
                 <label><input type="password" id="pwd"></label>
-                
+
                 <script>
                     const input = document.getElementById('input');
-                    const pwd=document.getElementById('pwd');
-                    
+                    const pwd = document.getElementById('pwd');
+
                     document.querySelectorAll('input[name="choice"]').forEach((radio) => {
                         radio.addEventListener('change', (event) => {
                             if (event.target.value === 'name') {
@@ -120,7 +120,7 @@
 
 
                 <div class="btn" onclick="find_card();">查询</div>
-                <div class="btn" onclick="cancel();">取消</div>
+                <div class="btn" onclick="get_card();">刷卡</div>
                 <div class="btn" onclick="back();">返回</div>
 
                 <br>

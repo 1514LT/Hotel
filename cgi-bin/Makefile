@@ -9,9 +9,10 @@ target8=./set_key/set_key.cgi
 target9=./modifying_user_rights/modifying_user_rights.cgi
 target10=./top_up/top_up.cgi
 target11=./get_card/get_card.cgi
+target12=./deduction_of_fee/deduction_of_fee.cgi
 FLAGS = -Wall
 CC = gcc
-all:$(target1) $(target2) $(target3) $(target4) $(target5) $(target6) $(target7) $(target8) $(target9) $(target10) $(target11)
+all:$(target1) $(target2) $(target3) $(target4) $(target5) $(target6) $(target7) $(target8) $(target9) $(target10) $(target11) $(target12)
 $(target1):./login/login.o sqlite3.o
 	$(CC) $^ -o $@ $(FLAGS) -lpthread -ldl
 $(target2):./singup/singup.o sqlite3.o
@@ -34,6 +35,8 @@ $(target10):./top_up/top_up.o sqlite3.o
 	$(CC) $^ -o $@ $(FLAGS) -lpthread -ldl
 $(target11):./get_card/get_card.o sqlite3.o
 	$(CC) $^ -o $@ $(FLAGS) -lpthread -ldl
+$(target12):./deduction_of_fee/deduction_of_fee.o sqlite3.o
+	$(CC) $^ -o $@ $(FLAGS) -lpthread -ldl
 %.o:%.c
 	$(CC) -c $^ -o $@ $(FLAGS)
 .PHONY:clean
@@ -49,3 +52,4 @@ clean:
 	rm example ./modifying_user_rights/*.o -rfv
 	rm example ./top_up/*.o -rfv
 	rm example ./get_card/*.o -rfv
+	rm example ./deduction_of_fee/*.o -rfv

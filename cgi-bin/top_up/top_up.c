@@ -76,6 +76,8 @@ int main(int argc, char const *argv[])
     else
     {
         printf("0");
+        sqlite3_close(db);
+        close(sockfd);
         return 0;
     }
     // 验证是否是充值卡

@@ -25,13 +25,16 @@ int main(int argc, char const *argv[])
     char pwd[64] = "";
     sscanf(data, "%[^:]:%s", usr, pwd);
     char sql[128] = "";
-    sprintf(sql, "select * from user where user =\'%s\' and pwd=\'%s\';", usr,pwd);
+    sprintf(sql, "select * from user where user =\'%s\' and pwd=\'%s\';", usr, pwd);
     char **result = NULL;
     int row = 0, col = 0;
     sqlite3_get_table(db, sql, &result, &row, &col, NULL);
     if (row >= 1)
     {
         sprintf(sql, "delete from user where user=\'%s\' and pwd=\'%s\';", usr, pwd);
+        sqlite3_exec(db, sql, NULL, NULL, NULL);
+        memset(sql, 0, sizeof(sql));
+        sprintf(sql, "DELETE FROM account WHERE user=\'%s\';", usr);
         sqlite3_exec(db, sql, NULL, NULL, NULL);
         printf("1");
     }

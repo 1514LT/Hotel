@@ -10,6 +10,9 @@ function getXMLHttpRequest() {
     }
     return xmlhttp;//返回请求对象
 }
+function log_in() { 
+    window.location.href="./index.html"
+}
 function write_off() {
     var name = document.getElementById("name").value;
     var pwd = document.getElementById("password").value;
