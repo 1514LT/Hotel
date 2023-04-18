@@ -13,12 +13,13 @@
 int sockfd = 0;
 typedef struct
 {
-    int device_id; //设备ID
-    int cli_fd;    //服务器与设备ID通信的已连接套接字
+    int device_id; // 设备ID
+    int cli_fd;    // 服务器与设备ID通信的已连接套接字
 } DEVICE;
 DEVICE array[128];
 char *get_now_time(char *time_now);
 int insert_card_from_user(char *card);
+int reset_tmp_user();
 // echo服务
 void *deal_fun(void *arg)
 {
@@ -26,16 +27,16 @@ void *deal_fun(void *arg)
     while (1)
     {
         unsigned char buf[256] = "";
-        //上线信息："1:设备号"
+        // 上线信息："1:设备号"
         int len = recv(cli_fd, buf, sizeof(buf), 0);
         printf("buf=%s\n", buf);
-        if (len == 0) //说明对方关闭了连接
+        if (len == 0) // 说明对方关闭了连接
         {
             close(cli_fd);
             break;
         }
 
-        if (buf[0] == '1') //上线信息
+        if (buf[0] == '1') // 上线信息
         {
             int device_id = 0;
             sscanf(buf, "1:%d", &device_id);
@@ -60,12 +61,12 @@ void *deal_fun(void *arg)
             send(array[device_id].cli_fd, card, strlen(card), 0);
             printf("A53希望和%d号文件描述通信\n", array[device_id].cli_fd);
         }
-        else if (buf[0] == '3') //普通打卡
+        else if (buf[0] == '3') // 普通打卡
         {
             char card[32] = "";
             sscanf(buf, "3:%s", card);
 
-            //从user表中查找有无此卡
+            // 从user表中查找有无此卡
             int ret = insert_card_from_user(card); // ret==0 未找到  ret==1找到
             if (ret == 1)
             {
@@ -77,12 +78,14 @@ void *deal_fun(void *arg)
             }
         }
     }
+    // 客户端退出，修改tmp_user
+    reset_tmp_user();
     printf("有客户端退出了\n");
 }
-//回收子进程资源
+// 回收子进程资源
 void exit_func(int sig)
 {
-    //关闭监听套接字
+    // 关闭监听套接字
     close(sockfd);
     _exit(-1);
 }
@@ -127,7 +130,7 @@ int main(int argc, char const *argv[])
         return 0;
     }
 
-    //注册 SIGINT 处理函数（目的 回收子进程资源 避免僵尸进程出现）
+    // 注册 SIGINT 处理函数（目的 回收子进程资源 避免僵尸进程出现）
     signal(SIGINT, exit_func);
 
     while (1)
@@ -140,28 +143,43 @@ int main(int argc, char const *argv[])
         if (cli_fd < 0)
             continue;
 
-        //查看客户端的信息
+        // 查看客户端的信息
         unsigned short port = ntohs(cli_addr.sin_port);
         char ip_str[16] = "";
         inet_ntop(AF_INET, &cli_addr.sin_addr.s_addr, ip_str, 16);
         printf("%s:%hu的连接已到来.......\n", ip_str, port);
 
-        //来一个客户端创建一个线程
+        // 来一个客户端创建一个线程
         pthread_t tid;
         pthread_create(&tid, NULL, deal_fun, (void *)cli_fd);
         pthread_detach(tid);
     }
 
-    //关闭监听套接字
+    // 关闭监听套接字
     close(sockfd);
     return 0;
 
     return 0;
 }
+int reset_tmp_user()
+{
+    sqlite3 *db = NULL;
+    int ret = sqlite3_open("../door.db", &db);
+    if (ret != SQLITE_OK)
+    {
+        perror("sqlite3_open");
+        return 0;
+    }
+
+    char sql[128] = "UPDATE tmp_user SET user='^^',pwd='^^';";
+    sqlite3_exec(db, sql, NULL, NULL, NULL);
+    sqlite3_close(db);
+    return 1;
+}
 int insert_card_from_user(char *card)
 {
     // 1、查找有无次卡
-    //定义数据库句柄
+    // 定义数据库句柄
     sqlite3 *db = NULL;
     int ret = sqlite3_open("../door.db", &db);
     if (ret != SQLITE_OK)
@@ -177,24 +195,24 @@ int insert_card_from_user(char *card)
     sqlite3_get_table(db, sql, &result, &row, &col, NULL);
     if (row >= 1)
     {
-        //获取当前时间
+        // 获取当前时间
         char time_buf[64] = "";
         get_now_time(time_buf);
 
-        //插入考勤数据库
+        // 插入考勤数据库
         char sql[128] = "";
         sprintf(sql, "insert into data values(\'%s\', \'%s\');", card, time_buf);
         sqlite3_exec(db, sql, NULL, NULL, NULL);
 
-        //关闭数据库
+        // 关闭数据库
         sqlite3_close(db);
         return 1;
     }
-    //关闭数据库
+    // 关闭数据库
     sqlite3_close(db);
     return 0;
 }
-//获取时间
+// 获取时间
 char *get_now_time(char *time_now)
 {
     time_t timep;
